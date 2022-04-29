@@ -1,0 +1,35 @@
+#!/bin/bash  --login
+#PBS -N 225
+#PBS -l select=1:ncpus=48:mpiprocs=48:ompthreads=1:mem=46GB
+#PBS -l walltime=24:00:00
+
+echo "<qsub_standard_output>"
+date
+echo "<qstat -f $PBS_JOBID>"
+qstat -f $PBS_JOBID
+echo "</qstat -f $PBS_JOBID>"
+
+# number of cores per node used
+export NCORES=48
+# number of processes
+export NPROCESSES=48
+
+# Make sure any symbolic links are resolved to absolute path
+export PBS_O_WORKDIR=$(readlink -f $PBS_O_WORKDIR)
+
+# Set the number of threads to 1
+#   This prevents any system libraries from automatically
+#   using threading.
+export OMP_NUM_THREADS=1
+env
+echo "</qsub_standard_output>"
+
+#to sync nodes
+cd $PBS_O_WORKDIR
+touch wood
+export MODULEPATH=$MODULEPATH:$HOME/../../gmallia/home/CRYSTAL17_cx1/v2.2gnu/modules
+echo "MODULEPATH= "$MODULEPATH
+echo Initial list of module loaded
+module list -l
+module load  mpich/3.2.1
+/rds/general/user/gmallia/home/CRYSTAL17_cx1/v2.2gnu/runcryP LTS_4007_PBE
