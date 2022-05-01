@@ -1,0 +1,29 @@
+Connection timed out
+qstat: cannot connect to server pbs (errno=110)
+No Modulefiles Currently Loaded.
+Loading mpich/3.2.1
+  Loading requirement: gcc/6.2.0
+could not open any host key
+ssh_keysign: no reply
+sign using hostkey ssh-ed25519 SHA256:yV/FF1yF5bg6EUHC4KGJot07E9PN12XVT4EJ+d15kCQ failed
+could not open any host key
+ssh_keysign: no reply
+sign using hostkey ssh-ed25519 SHA256:yV/FF1yF5bg6EUHC4KGJot07E9PN12XVT4EJ+d15kCQ failed
+could not open any host key
+ssh_keysign: no reply
+sign using hostkey ssh-ed25519 SHA256:yV/FF1yF5bg6EUHC4KGJot07E9PN12XVT4EJ+d15kCQ failed
+could not open any host key
+ssh_keysign: no reply
+sign using hostkey ssh-ed25519 SHA256:yV/FF1yF5bg6EUHC4KGJot07E9PN12XVT4EJ+d15kCQ failed
+cp: cannot stat '/rds/general/user/bc713/home/classification/LTS/sg_225/.f9': No such file or directory
+could not open any host key
+ssh_keysign: no reply
+sign using hostkey ssh-ed25519 SHA256:yV/FF1yF5bg6EUHC4KGJot07E9PN12XVT4EJ+d15kCQ failed
+cp: cannot stat '/rds/general/user/bc713/home/classification/LTS/sg_225/.BORN': No such file or directory
+could not open any host key
+ssh_keysign: no reply
+sign using hostkey ssh-ed25519 SHA256:yV/FF1yF5bg6EUHC4KGJot07E9PN12XVT4EJ+d15kCQ failed
+could not open any host key
+ssh_keysign: no reply
+sign using hostkey ssh-ed25519 SHA256:yV/FF1yF5bg6EUHC4KGJot07E9PN12XVT4EJ+d15kCQ failed
+bash: /var/tmp/pbs.5493422.pbs/LTS_4007_PBE_1910742/checkfile: Permission denied

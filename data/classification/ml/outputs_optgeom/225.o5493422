@@ -1,0 +1,1008 @@
+<qsub_standard_output>
+Fri 29 Apr 13:53:46 BST 2022
+<qstat -f 5493422.pbs>
+</qstat -f 5493422.pbs>
+PBS_ENVIRONMENT=PBS_BATCH
+PBS_O_LANG=en_GB.UTF-8
+NPROCESSES=48
+RDS=/rds/general/user/bc713
+LANG=en_GB.UTF-8
+HISTCONTROL=ignoredups
+HOSTNAME=cx3-4-15.cx3.hpc.ic.ac.uk
+OLDPWD=/var/tmp/pbs.5493422.pbs
+PBS_O_HOME=/rds/general/user/bc713/home
+PBS_JOBID=5493422.pbs
+ENVIRONMENT=BATCH
+PBS_JOBNAME=225
+NCPUS=1
+PBS_O_PATH=/usr/lib/qt-3.3/bin:/apps/modules/4.7.1/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/rds/general/user/bc713/home/.dotnet/tools:/opt/ibutils/bin:/opt/pbs/bin
+DOTNET_ROOT=/usr/lib64/dotnet
+S_COLORS=auto
+which_declare=declare -f
+MODULES_CMD=/apps/modules/4.7.1/libexec/modulecmd.tcl
+DOTNET_BUNDLE_EXTRACT_BASE_DIR=/rds/general/user/bc713/home/.cache/dotnet_bundle_extract
+PBS_O_WORKDIR=/rds/general/user/bc713/home/classification/LTS/sg_225
+USER=bc713
+ENV=/apps/modules/4.7.1/init/profile.sh
+PBS_NODEFILE=/var/spool/PBS/aux/5493422.pbs
+PBS_TASKNUM=1
+PWD=/var/tmp/pbs.5493422.pbs
+HOME=/rds/general/user/bc713/home
+PBS_MOMPORT=15003
+AX4_SCRATCH=/rds/general/user/bc713/home
+WORK=/rds/general/user/bc713/home
+BASH_ENV=/apps/modules/4.7.1/init/bash
+XDG_DATA_DIRS=/rds/general/user/bc713/home/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+PBS_JOBCOOKIE=42F1B98C4BD5A94313FAAA350317A37D
+PBS_O_SHELL=/bin/bash
+TMPDIR=/var/tmp/pbs.5493422.pbs
+CX2_SCRATCH=/rds/general/user/bc713/home
+CX2_SCRATCH2=/rds/general/user/bc713/home
+CX2_SCRATCH1=/rds/general/user/bc713/home
+LOADEDMODULES=
+PBS_O_QUEUE=v1_medium72
+MAIL=/var/spool/mail/bc713
+SHELL=/bin/bash
+DOTNET_CLI_TELEMETRY_OPTOUT=1
+CUDA_VISIBLE_DEVICES=
+SHLVL=2
+PBS_O_HOST=cx3-2-29.cx3.hpc.ic.ac.uk
+EPHEMERAL=/rds/general/user/bc713/ephemeral
+PBS_O_SYSTEM=Linux
+MANPATH=::/opt/pbs/share/man:/opt/pbs/share/man
+PBS_O_LOGNAME=bc713
+PBS_NODENUM=0
+MODULEPATH=/etc/scl/modulefiles:/etc/scl/modulefiles:/apps/modules/4.7.1/modulefiles
+PBS_JOBDIR=/rds/general/user/bc713/home
+LOGNAME=bc713
+MODULEPATH_modshare=/apps/modules/4.7.1/modulefiles:1
+PATH=/apps/modules/4.7.1/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/rds/general/user/bc713/home/.dotnet/tools:/opt/pbs/bin:/rds/general/user/bc713/home/.dotnet/tools:/opt/pbs/bin
+PBS_QUEUE=v1_medium72
+MODULESHOME=/usr/share/Modules
+HISTSIZE=1000
+RDS_PROJECT=/rds/general/project/
+NCORES=48
+PBS_O_MAIL=/var/spool/mail/bc713
+OMP_NUM_THREADS=1
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+BASH_FUNC_OPT%%=() {  echo "### ### ###";
+ echo "OPT  function in .bashrc";
+ echo "### ### ###";
+ OPTcheck=`awk 'BEGIN{a="no"}{if ($0 ~ "OPTGEOM"){a="yes"}}END{print a}' $1`;
+ if [ $OPTcheck = "yes" ]; then
+ echo "check the input";
+ else
+ NEWINPUT=`echo $1 | sed -e 's/.d12/_OPT.d12/'`;
+ awk '/END/ {cEND++};
+      {if ($0 ~ "END" && cEND==1 && INSOPT==0)
+       {print "OPTGEOM\nENDOPT";
+        print $0;
+        INSOPT=1 }
+       else
+       {print $0}
+      }' $1 > $NEWINPUT;
+ fi;
+ echo "### ### ###"
+}
+BASH_FUNC_ETOT%%=() {  for i in $*;
+ do
+ awk '/DETOT/ {DETOT=$6};
+     {if ($0 ~ "TOTAL ENERGY" && $0 ~ "AU") 
+      {ETOT=substr($0,28);gsub("DE.*$","",ETOT)}};
+     {if ($0 ~ "TOO MANY CYCLES") {STATUS="TMC:"DETOT}};
+     {if ($0 ~ "Killed" || $0 ~ "KILL" ) {STATUS="Killed"}};
+     {if ($0 ~ "bort") {gsub(".Abort","",STATUS);STATUS=STATUS".Abort"}};
+     END{print FILENAME,   ETOT,    STATUS }  ' $i;
+ done
+}
+BASH_FUNC_ETOT_ALL_C%%=() {  for i in $*;
+ do
+ awk '/DETOT/ {DETOT=$6};
+     {if($0~"TOTAL ENERGY" && $0~"AU")
+      {c++;LINE=$0;ETOT[c]=substr($0,28);gsub("DE.*$","",ETOT[c]);
+       split(LINE,C,")");CYC[c]=substr(C[3],2)}
+     };
+     {if ($0 ~ "TOO MANY CYCLES") {STATUS="TMC:"DETOT}};
+     {if ($0 ~ "Killed" || $0 ~ "KILL" ) {STATUS="Killed"}};
+     {if ($0 ~ "bort") {gsub(".Abort","",STATUS);STATUS=STATUS".Abort"}};
+   END{for (j=1;j<=c;j++) {print FILENAME,ETOT[j],CYC[j],STATUS} }' $i;
+ done
+}
+BASH_FUNC_ETOT_ANALYSE%%=() {  if [ $# -eq 0 ]; then
+ cat  <<EOF
+HOWTO:
+      This script extracts the energy from a list of CRYSTAL output files,
+                  looks for the miminum energy and
+                  calculates the energy difference with respect to the minimum.
+
+      If the first argument is not a file,
+      the output is named with the first argument.
+      Otherwise the default output is sortenergy.out
+
+EOF
+
+ else
+ if [ -e $1 ]; then
+ OUTPUT=ETOT_ANALYSE.out;
+ else
+ OUTPUT=$1
+ shift;
+ fi;
+ echo "output in:" $OUTPUT;
+ for AUX_FUNCTION in ETOT ETOT_C;
+ do
+ CHECK=`env | awk -v AUX_FUNCTION=$AUX_FUNCTION 'BEGIN{S="not_found"};{if($0~"^"AUX_FUNCTION"=()"){S="found"}};END{print S}'`;
+ if [ $CHECK == "not_found" ]; then
+ echo "auxiliary function not found: " $AUX_FUNCTION;
+ fi;
+ done;
+ date >> $OUTPUT;
+ echo "ENERGY CONVERGENCE" >> $OUTPUT;
+ ETOT_C $* | column -t >> $OUTPUT;
+ ETOT $* | awk '{if (NF ==2){print $0}}' > E.1;
+ MIN=`ETOT $* |awk '{if (NF ==2){printf("%20.10f %s\n",$2,$0)}}' |sort |awk '{A=$1}END{print A}'`;
+ FILE=`ETOT $* |awk '{if (NF ==2){printf("%20.10f %s\n",$2,$0)}}' |sort |awk '{A=$2}END{print A}'`;
+ echo " " >> $OUTPUT;
+ echo "MINIMUM= "$MIN "in FILE=" $FILE >> $OUTPUT;
+ echo " " >> $OUTPUT;
+ echo "Energy difference with respect to the " $FILE >> $OUTPUT;
+ awk -v MIN=$MIN '{print $0,$NF-MIN}' E.1 | column -t >> $OUTPUT;
+ echo "------------------------------------------------" >> $OUTPUT;
+ rm -f E.1;
+ fi
+}
+BASH_FUNC_DISP%%=() {  echo "### ### ###";
+ echo "DISP function in .bashrc";
+ echo "### ### ###";
+ awk '{if (NR==1) {NATOM=$0}}
+      {if (NR==2) {TITLE=$0}}
+      {if (NR>2 && NR <= NATOM+2) print $0}
+      ' $1 > start;
+ export RIGHE=`cat $1 | wc -l | awk '{print $1}' `;
+ awk -v ARIGHE=$RIGHE '
+       {if (NR==1) {NATOM=$0}}
+       {if (NR==2) {TITLE=$0}}
+       {FIRST=ARIGHE-NATOM}
+       {if (NR > FIRST )
+         {print $0}} ' $1 > end;
+ paste start end | awk '
+     {printf("%3s",$1)}
+     {for (i=2 ; i<5 ; i++)
+          {printf(" %15.9f ",$(i+4)-$i)
+          }
+     }
+     {print " "} ' | nl > end_start;
+ cat end_start;
+ export NAT=`awk  '{if (NR==1) {NATOM=$1}}END{print NATOM} ' $1 `;
+ cat end_start | awk -v NAT=$NAT 'BEGIN{print "\ANGSTROM\nBREAKSYM\nATOMDISP";print NAT}
+{printf("%2s  %15.10f  %15.10f %15.10f \n",$1,$3,$4,$5)}' > $1.ATOMDISP;
+ cat $1.ATOMDISP;
+ rm -f end start end_start;
+ echo "### ### ###"
+}
+BASH_FUNC_ETOT_ALL_C_CONV%%=() {  for i in $*;
+ do
+ awk '/DETOT/ {DETOT=$6};
+     {if($0~"TOTAL ENERGY" && $0~"AU")
+      {c++;LINE=$0;ETOT[c]=substr($0,28);gsub("DE.*$","",ETOT[c]);
+       gsub(" ","",ETOT[c])
+       split(LINE,C,")");CYC[c]=substr(C[3],2)}
+     };
+     {if ($0 ~ "TOO MANY CYCLES") {STATUS="TMC:"DETOT}};
+     {if ($0 ~ "Killed" || $0 ~ "KILL" ) {STATUS="Killed"}};
+     {if ($0 ~ "bort") {gsub(".Abort","",STATUS);STATUS=STATUS".Abort"}};
+     {if ($0 ~ "MAX GRAD")  {Maxg[c]=$(NF-4);Maxgs[c]=$NF;Maxgt=$(NF-2)}};
+     {if ($0 ~ "RMS GRAD")  {Rmsg[c]=$(NF-4);Rmsgs[c]=$NF;Rmsgt=$(NF-2)}};
+     {if ($0 ~ "MAX DISP")  {Maxd[c]=$(NF-4);Maxds[c]=$NF;Maxdt=$(NF-2)}};
+     {if ($0 ~ "RMS DISP")  {Rmsd[c]=$(NF-4);Rmsds[c]=$NF;Rmsdt=$(NF-2)}};
+     END{for (j=1;j<=c;j++)
+     {printf("%s %3s %15s %4s  %10.6f %3s %10.6f %3s %10.6f %3s  %10.6f %3s %s\n",
+       FILENAME,j,ETOT[j],CYC[j],Maxg[j],Maxgs[j],Rmsg[j],Rmsgs[j],Maxd[j],Maxds[j],Rmsd[j],Rmsds[j],STATUS)};
+      printf("MAX GRAD,  RMS GRAD,  MAX DISP,  RMS DISP:   %20.6f     %10.6f     %10.6f      %10.6f THRESHOLDS\n",
+                                 Maxgt,         Rmsgt,         Maxdt,         Rmsdt)
+        }' $i;
+ done
+}
+BASH_FUNC_which%%=() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot "$@"
+}
+BASH_FUNC_STATE%%=() {  for i in $*;
+ do
+ tac $i | awk -v FILEN=$i '{if ($0~"SCF ENDED"){{if($0~"TOO MANY CYCLES"){TMC="TMC"}};SCF=1}};
+              {if ($0 ~ "CHARGE NORMALIZATION FACTOR" && SCF==1){getline;getline;
+               printf("%-30s %50s %s \n",FILEN,$0,TMC);exit}};
+              END{if(SCF==0){print FILEN,"NO SCF ENDED"}}';
+ done
+}
+BASH_FUNC_module%%=() {  unset _mlshdbg;
+ if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '1' ]; then
+ case "$-" in 
+ *v*x*)
+ set +vx;
+ _mlshdbg='vx'
+ ;;
+ *v*)
+ set +v;
+ _mlshdbg='v'
+ ;;
+ *x*)
+ set +x;
+ _mlshdbg='x'
+ ;;
+ *)
+ _mlshdbg=''
+ ;;
+ esac;
+ fi;
+ unset _mlre _mlIFS;
+ if [ -n "${IFS+x}" ]; then
+ _mlIFS=$IFS;
+ fi;
+ IFS=' ';
+ for _mlv in ${MODULES_RUN_QUARANTINE:-};
+ do
+ if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then
+ if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then
+ _mlre="${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";
+ fi;
+ _mlrv="MODULES_RUNENV_${_mlv}";
+ _mlre="${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' ";
+ fi;
+ done;
+ if [ -n "${_mlre:-}" ]; then
+ eval `eval ${_mlre} /usr/bin/tclsh /apps/modules/4.7.1/libexec/modulecmd.tcl bash '"$@"'`;
+ else
+ eval `/usr/bin/tclsh /apps/modules/4.7.1/libexec/modulecmd.tcl bash "$@"`;
+ fi;
+ _mlstatus=$?;
+ if [ -n "${_mlIFS+x}" ]; then
+ IFS=$_mlIFS;
+ else
+ unset IFS;
+ fi;
+ unset _mlre _mlv _mlrv _mlIFS;
+ if [ -n "${_mlshdbg:-}" ]; then
+ set -$_mlshdbg;
+ fi;
+ unset _mlshdbg;
+ return $_mlstatus
+}
+BASH_FUNC_ETOT_ALL%%=() {  for i in $*;
+ do
+ awk '/DETOT/ {DETOT=$6};
+     {if($0~"TOTAL ENERGY" && $0~"AU")
+      {c++;LINE=$0;ETOT[c]=substr($0,28);gsub("DE.*$","",ETOT[c])
+      }
+     };
+   END{for (j=1;j<=c;j++) {print FILENAME,ETOT[j]} }' $i;
+ done
+}
+BASH_FUNC_DISP2%%=() {  echo "### ### ###";
+ echo "DISP function in .bashrc";
+ echo "### ### ###";
+ awk '{if (NR==1) {NATOM=$0}}
+      {if (NR==2) {TITLE=$0}}
+      {if (NR>2 && NR <= NATOM+2) print $0}
+      ' $1 > start;
+ export RIGHE=`cat $1 | wc -l | awk '{print $1}' `;
+ awk -v ARIGHE=$RIGHE '
+       {if (NR==1) {NATOM=$0}}
+       {if (NR==2) {TITLE=$0}}
+       {FIRST=ARIGHE-NATOM}
+       {if (NR > FIRST )
+         {print $0}} ' $1 > end;
+ paste start end | awk '
+     {printf("%3s",$1)}
+     {for (i=2 ; i<5 ; i++)
+          {printf(" %20.16f ",$(i+4)-$i)
+          }
+     }
+     {print " "} ' | nl > end_start;
+ cat end_start;
+ export NAT=`awk  '{if (NR==1) {NATOM=$1}}END{print NATOM} ' $1 `;
+ cat end_start | awk -v NAT=$NAT 'BEGIN{print "BREAKSYM\nATOMDISP";print NAT}
+{printf("%2s  %20.16f  %20.16f %20.16f \n",$1,$3,$4,$5)}' > $1.ATOMDISP;
+ cat $1.ATOMDISP;
+ rm -f end start end_start;
+ echo "### ### ###"
+}
+BASH_FUNC_INSDISP%%=() {  echo "### ### ###";
+ echo "INSDISP  function in .bashrc";
+ echo "### ### ###";
+ if [ $# -eq 0 ]; then
+ echo "HOWTO:  INSDISP input.d12 fort.f66";
+ echo "\$1 --> input.d12";
+ echo "\$2 --> file with the ATOMDISP directives";
+ else
+ if [ "$#" -eq "1" -o ! -e "$2" ]; then
+ echo "ERROR: check the second argument, the ATOMDISP directives are not found in "$2;
+ else
+ OPTcheck=`awk 'BEGIN{a="no"}{if($0~"OPTGEOM" ||$0~"OPTCOORD"){a="yes"}}END{print a}' $1`;
+ mv $1 $1.beforeINSDISP;
+ echo "OPTGEOM in the input?" $OPTcheck;
+ cp $2 ATOMDISP.tmp;
+ if [ $OPTcheck = "yes" ]; then
+ NLOPT=`awk '{if($0~"OPTGEOM"){L=NR}};{if($0~"KEEPSYMM"){getline;{if($0~"OPTGEOM"){L=NR-1}}}};END{print L}' $1.beforeINSDISP`;
+ awk -v NLFILE=`wc -l $2 | awk '{print $1}'` -v NLOPT=$NLOPT '{if (NR == NLOPT)
+           {OLDLINE=$0
+            {for ( nline=1; nline <= NLFILE ; nline++)
+             {getline < "ATOMDISP.tmp"
+              print $0}
+            };
+            {close("ATOMDISP.tmp")};
+            {print  OLDLINE }}
+          else
+          {print $0}
+      }' $1.beforeINSDISP > $1;
+ else
+ awk -v NLFILE=`wc -l $2 | awk '{print $1}'` '/END/ {cEND++};
+          {if ($0 ~ "END" && cEND==1 && INSATOMDISP==0)
+           {OLDLINE=$0;
+            {for ( nline=1; nline <= NLFILE ; nline++)
+             {getline < "ATOMDISP.tmp"
+              print $0
+             }
+            };
+            close("ATOMDISP.tmp")
+            print OLDLINE
+            INSATOMDISP=1}
+           else
+          {print $0}
+      }' $1.beforeINSDISP > $1;
+ fi;
+ rm -f ATOMDISP.tmp;
+ fi;
+ fi;
+ echo "### ### ###"
+}
+BASH_FUNC_EI%%=() {  for i in $*;
+ do
+ awk '{if ($0 ~ "=== SCF ENDED -" ) {counter++}
+     }
+     {if ($0 ~ "=== SCF ENDED -" && counter==1)
+     {print FILENAME,   $(NF-2) }}  ' $i;
+ done
+}
+BASH_FUNC_NEWOPT_FIXEDCELL%%=() {  if [ $# -eq 0 ]; then
+ echo "HOWTO: NEWOPT_FIXEDCELL input.d12";
+ else
+ echo $*;
+ for i in $*;
+ do
+ echo "OLD INPUT= " $i;
+ if [ ! -e $i ]; then
+ echo "the file does not exist";
+ continue;
+ fi;
+ NEWINPUT=`echo $i |awk '{n=split($0,A,".");for(i=1;i<=n;i++){if(A[i]~"OPT"){B=A[i]}}};
+                        {n=split(B,C,"_") ;for(i=1;i<=n;i++){if(C[i]~"OPT"){B=C[i]}}};
+          END{N=B;gsub("^.*OPT","",N);S=B;gsub(N,"",S);N=N+1;gsub(B,S N,$0);print $0}'`;
+ echo "NEW INPUR= " $NEWINPUT;
+ if [ -e $NEWINPUT ]; then
+ echo "the file already exists";
+ continue;
+ fi;
+ cp $i $NEWINPUT;
+ XYZ=`echo $i | sed -e 's/.d12/.xyz/g'`;
+ echo $XYZ;
+ if [ ! -e $XYZ ]; then
+ echo "the xyz file does not exist";
+ continue;
+ fi;
+ DISP $XYZ;
+ INSDISP $NEWINPUT $XYZ.ATOMDISP;
+ done;
+ fi
+}
+BASH_FUNC_ETOT_C%%=() {  for i in $*;
+ do
+ awk '/DETOT/ {DETOT=$6};
+     {if($0~"TOTAL ENERGY" && $0~"AU")
+      {LINE=$0;ETOT=substr($0,28);gsub("DE.*$","",ETOT);
+       split(LINE,C,")");CYC=substr(C[3],2)}
+     };
+     {if ($0 ~ "TOO MANY CYCLES") {STATUS="TMC:"DETOT}};
+     {if ($0 ~ "Killed" || $0 ~ "KILL" ) {STATUS="Killed"}};
+     {if ($0 ~ "bort") {gsub(".Abort","",STATUS);STATUS=STATUS".Abort"}};
+     END{print FILENAME,   ETOT,CYC,STATUS}' $i;
+ done
+}
+BASH_FUNC_DE%%=() {  DEOUT=`echo $1 $2 |  awk '{gsub(".d12","_DE"$2".d12",$1);print $1}'`;
+ cp $1 $DEOUT;
+ DEE $DEOUT $2
+}
+BASH_FUNC_OPTE%%=() {  for i in $*;
+ do
+ echo -n $i;
+ grep "OPT E" $i;
+ echo "";
+ done | sed -e '/^$/d' | ct
+}
+BASH_FUNC_GP%%=() {  for i in $*;
+ do
+ echo "========";
+ echo $i;
+ if [ ! -e $i ]; then
+ echo "file not found: "$i;
+ continue;
+ fi;
+ FIXINDEX=`awk 'BEGIN{a="no"}{if ($0 ~ "FIXINDEX"){a="yes"}}END{print a}' $i`;
+ echo "FIXINDEX is in the input?" $FIXINDEX;
+ END=`awk 'BEGIN{FIXINDEX=0}
+          {if ($0 ~ "FIXINDEX" ) {FIXINDEX=-1}};
+          {if ($0 ~ "END") {cEND++}};END{print cEND+FIXINDEX}' $i`;
+ GUESSP_IN_INPUT=`awk 'BEGIN{a="no"}{if ($0 ~ "GUESSP"){a="yes"}}END{print a}' $i`;
+ if [ $GUESSP_IN_INPUT == "no" ]; then
+ GOUT=`echo $i | sed -e 's/\.d12/_G1.d12/'`;
+ if [ -e $GOUT ]; then
+ echo "file exists already: "$GOUT;
+ continue;
+ fi;
+ echo "NEW OUTPUT: "$GOUT;
+ awk -v nEND=$END '
+      {if ($0 ~ "END" ) {cEND++}}
+      {if ($0 ~ "END" && cEND == nEND)
+      {print "GUESSP";
+       print $0}
+      else
+       {print $0}
+      }' $i > $GOUT;
+ else
+ G_IN_INPUTNAME=`echo $i|awk 'BEGIN{a="no"}{if($0~ "G[0-9].d12"){a="yes"}}END{print a}'`;
+ if [ $G_IN_INPUTNAME == "yes" ]; then
+ GOUT=`echo $i|awk -v FS="_G" '{split($2,N,".");N[1]++;print $1"_G"N[1]".d12"}'`;
+ if [ -e $GOUT ]; then
+ echo "file exists already: "$GOUT;
+ continue;
+ fi;
+ echo "NEW OUTPUT: "$GOUT;
+ cp $i $GOUT;
+ else
+ echo "NOTHING HAS BEEN DONE!!!";
+ echo "THIS CASE HAS NOT BE CONSIDERED!!!";
+ fi;
+ fi;
+ done
+}
+BASH_FUNC_DEE%%=() {  echo "### ### ###";
+ echo "DEE function in .bashrc";
+ echo "### ### ###";
+ TOLDEP=`awk 'BEGIN{a="no"}{if ($0 ~ "TOLDEP"){a="yes"}}END{print a}' $1`;
+ echo "TOLDEP is in the input?" $TOLDEP;
+ TOLDEE=`awk 'BEGIN{a="no"}{if ($0 ~ "TOLDEE"){a="yes"}}END{print a}' $1`;
+ echo "TOLDEE is in the input?" $TOLDEE;
+ if [ $TOLDEP = "yes" ]; then
+ echo "TOLDEP is in the input";
+ else
+ mv $1 $1.beforeDEE;
+ if [ $TOLDEE = "yes" ]; then
+ echo "TOLDEE is in the input";
+ awk -v DEE=$2 '
+{if ($0 ~ "TOLDEE")
+                   {TOLDEEline=NR+1
+                    print $0}
+                  else
+                   {if (NR == TOLDEEline )
+                    {print DEE}
+                    else
+                    {print $0}
+                   }
+}' $1.beforeDEE > $1;
+ else
+ FIXINDEX=`awk 'BEGIN{a="no"}{if ($0 ~ "FIXINDEX"){a="yes"}}END{print a}' $1.beforeDEE`;
+ END=`awk 'BEGIN{FIXINDEX=0}
+          {if ($0 ~ "FIXINDEX" ) {FIXINDEX=-1}};
+          {if ($0 ~ "END") {cEND++}};END{print cEND+FIXINDEX}' $1.beforeDEE`;
+ echo "FIXINDEX is in the input?" $FIXINDEX;
+ echo " Modification of the file: "$1;
+ awk -v nEND=$END -v DEE=$2 '
+      {if ($0 ~ "END" ) {cEND++}}
+      {if ($0 ~ "END" && cEND == nEND)
+      {print "TOLDEE";
+       print DEE;
+       print $0}
+      else
+       {print $0}
+      }' $1.beforeDEE > $1;
+ echo "The keyword TOLDEE has been added to the input";
+ fi;
+ fi;
+ echo "### ### ###"
+}
+BASH_FUNC_scl%%=() {  if [ "$1" = "load" -o "$1" = "unload" ]; then
+ eval "module $@";
+ else
+ /usr/bin/scl "$@";
+ fi
+}
+BASH_FUNC_ml%%=() {  module ml "$@"
+}
+_=/bin/env
+</qsub_standard_output>
+MODULEPATH= /etc/scl/modulefiles:/etc/scl/modulefiles:/apps/modules/4.7.1/modulefiles:/rds/general/user/bc713/home/../../gmallia/home/CRYSTAL17_cx1/v2.2gnu/modules
+Initial list of module loaded
+mpiexec
+printed output filename LTS_4007_PBE.out
+creating temporary directory /var/tmp/pbs.5493422.pbs/LTS_4007_PBE_1910742
+<script>
+
+if ( ${?PBS_NODEFILE}) then
+ if ( -e ${PBS_NODEFILE} ) then
+   echo '${PBS_NODEFILE}' found: ${PBS_NODEFILE}
+   cat ${PBS_NODEFILE}
+#  set NODENAME=`hostname`
+   set PCLIST=`awk '{if ($I != old){printf("%s ",$I);old=$I}}' ${PBS_NODEFILE}`
+#  set PCLIST=`echo ${PCLIST} | sed 's/'${NODENAME}'//' `
+ else 
+   echo '${PBS_NODEFILE}' not found
+   exit
+ endif
+
+ foreach PC ($PCLIST)
+ ssh $PC "if [ ! -d $TMPDIR ];then mkdir -p $TMPDIR;echo 'temporary directory on '$PC;fi"
+ end
+
+endif
+
+
+ set INPPROP  = $cwd
+ set OUTDIR   = $cwd
+ set INPDIR   = $cwd
+ set CRY2K6_F9 = $cwd 
+
+echo $OUTDIR/$OUTFILE
+cat <<EOF >& $OUTDIR/$OUTFILE
+date:                `date`
+hostname:            `hostname`
+system:              `uname -a`
+user:                `whoami`
+input:               $OUTDIR/$I.d12
+output:              $OUTDIR/$OUTFILE
+executable script:   `which $0`
+executable dir:      $XDIR
+executables:     
+`ls -l $XDIR |awk '{if(\$1~"x"){printf "                    ";print}}'` 
+
+Command:             $CRYCOMMAND
+temporary directory: $TMPDIR      
+EOF
+
+if ( ${?PBS_JOBID}) then
+ echo "<qstat -f $PBS_JOBID>"  >>& $OUTDIR/$OUTFILE
+ qstat -f $PBS_JOBID           >>& $OUTDIR/$OUTFILE
+ echo "</qstat -f $PBS_JOBID>" >>& $OUTDIR/$OUTFILE
+endif
+
+
+if ( $#argv > 1 ) then
+ if (-e $CRY2K6_F9/$2.f9 && ! -z $CRY2K6_F9/$2.f9 ) then
+ cp $CRY2K6_F9/$2.f9 $TMPDIR/fort.20
+ echo scf guess from $CRY2K6_F9/$2.f9
+ echo scf guess from $CRY2K6_F9/$2.f9 >>& $OUTDIR/$OUTFILE
+ else
+ echo CRYSTAL data $CRY2K6_F9/$2.f9 not found or empty
+ endif
+
+foreach NODAT_FILE ( BORN FREQINFO OPTHESS OPTINFO POINTCHG EOSINFO TENS_RAMAN )
+ set SAVEDFILE=$CRY2K6_F9/$2"."$NODAT_FILE
+ if( -e $SAVEDFILE && ! -z $SAVEDFILE ) then
+ set DAT_FILE=$TMPDIR/$NODAT_FILE".DAT"
+ cp $SAVEDFILE $DAT_FILE
+ echo file $SAVEDFILE copied in $DAT_FILE >>& $OUTDIR/$OUTFILE
+ echo file $SAVEDFILE copied in $DAT_FILE
+ endif
+end
+
+foreach F_FILE ( f13 f28 f80 f91 )
+ set SAVEDFILE=$CRY2K6_F9/$2"."$F_FILE
+ if( -e $SAVEDFILE && ! -z $SAVEDFILE ) then
+ set FORT_NUMBER=`echo $F_FILE | sed 's/f//g'`
+ set FORT_FILE=$TMPDIR/"fort."$FORT_NUMBER
+ cp $SAVEDFILE $FORT_FILE
+ echo file $SAVEDFILE copied in $FORT_FILE >>& $OUTDIR/$OUTFILE
+ echo file $SAVEDFILE copied in $FORT_FILE
+ endif
+end
+
+
+ if (-e $CRY2K6_F9/$2.f80 && ! -z $CRY2K6_F9/$2.f80 ) then
+ cp $CRY2K6_F9/$2.f80 $TMPDIR/fort.80
+ echo localwf from $CRY2K6_F9/$2.f80
+ echo localwf from $CRY2K6_F9/$2.f80 >>& $OUTDIR/$OUTFILE
+ endif
+
+endif
+ 
+ if (-e $INPDIR/$I.d12 && ! -z $INPDIR/$I.d12 ) then
+ echo input expected in $INPDIR/$I.d12
+ echo input data $INPDIR/$I.d12 >>& $OUTDIR/$OUTFILE
+ cat $INPDIR/$I.d12 >>& $OUTDIR/$OUTFILE
+ else
+ echo CRYSTAL input data $INPDIR/$I.d12 not found or empty
+ exit
+ endif
+
+ echo "tmp" $TMPDIR
+ cd $TMPDIR
+
+ if (-e $INPDIR/$I.gui  && ! -z  $INPDIR/$I.gui  ) then
+ cp  $INPDIR/$I.gui fort.34
+ echo external geometry input found in  $INPDIR/$I.gui >>& $OUTDIR/$OUTFILE
+ endif
+
+ cp $INPDIR/$I.d12 INPUT 
+if ( ${?PCLIST} ) then
+ foreach PC ($PCLIST)
+ ssh $PC cp $INPDIR/$I.d12 ${TMPDIR}/INPUT
+ ssh $PC cp $INPDIR/$I.gui ${TMPDIR}/fort.34
+ ssh $PC cp $INPDIR/$2.f9  ${TMPDIR}/fort.20
+ ssh $PC cp $INPDIR/$2.BORN  ${TMPDIR}/BORN.DAT
+ echo "INPUT has been copied in " $PC ":" $TMPDIR/INPUT
+ end
+endif
+
+ ${CRYCOMMAND} >>& $OUTDIR/$OUTFILE
+ echo -n "end_date "    >>  $OUTDIR/$OUTFILE
+ date >> $OUTDIR/$OUTFILE
+ ls ERROR* >& /dev/null
+ if($? == 0) then
+  head ERROR* 
+  head ERROR* >> $OUTDIR/$OUTFILE
+ endif
+
+ if(-e $INPPROP/$I.d3 && ! -z $INPPROP/$I.d3 ) then
+ echo properties input data $INPPROP/$I.d3 >>& $OUTDIR/$OUTFILE
+ echo properties input data $INPPROP/$I.d3
+ cat $INPPROP/$I.d3 >>& $OUTDIR/$OUTFILE
+ if (-e fort.9  && ! -z fort.9  ) then
+  ${XDIR}/properties < $INPPROP/$I.d3 >> $OUTDIR/$OUTFILE
+ endif
+ else
+ if(-e $INPPROP/properties.d3 && ! -z $INPPROP/properties.d3 ) then
+ echo properties input data $INPPROP/properties.d3 >>& $OUTDIR/$OUTFILE
+ cat $INPPROP/properties.d3 >>& $OUTDIR/$OUTFILE
+ if (-e fort.9  && ! -z fort.9  ) then
+ ${XDIR}/properties < $INPPROP/properties.d3 >> $OUTDIR/$OUTFILE
+ endif
+ endif
+ endif
+
+ date                   >>  $OUTDIR/$OUTFILE
+
+
+
+#tag_start_for_checkfile
+
+ ls ERROR* >& /dev/null
+ if($? == 0) then
+  head ERROR*
+  head ERROR* >> $OUTDIR/$OUTFILE
+ endif
+
+
+ echo " "                                         >>& $OUTDIR/$OUTFILE
+ echo "TEMPORARY          SAVED (in $OUTDIR)"     >>& $OUTDIR/$OUTFILE
+
+if (-e fort.9  && ! -z fort.9  ) then
+ cp fort.9 $OUTDIR/$I.f9
+ echo fort.9   $I.f9|awk '{printf("%-18s %-18s"),$1,$2}'  >>& $OUTDIR/$OUTFILE
+ ls -l $OUTDIR/$I.f9|awk '{printf("%-8s %s %s %s\n"),$5,$6,$7,$8}'>>&$OUTDIR/$OUTFILE
+ echo wave function binary file $OUTDIR/$I.f9
+ set MASTER_WITH_PROC_0="YES"
+else
+ echo 'binary wf (fort.9) is not written on this node' >>& $OUTDIR/$OUTFILE
+endif 
+
+if(-e fort.20  && ! -z fort.20 ) then
+ cp fort.20 $OUTDIR/$I.f20
+ echo fort.20  $I.f20|awk '{printf("%-18s %-18s"),$1,$2}'  >>& $OUTDIR/$OUTFILE
+ ls -l $OUTDIR/$I.f20|awk '{printf("%-8s %s %s %s\n"),$5,$6,$7,$8}'>>&$OUTDIR/$OUTFILE
+ echo file fort.20 saved as $OUTDIR/$I.f20
+endif
+
+if(-e fort.33  && ! -z fort.33 ) then
+ cp fort.33 $OUTDIR/$I.xyz
+ echo fort.33  $I.xyz|awk '{printf("%-18s %-18s"),$1,$2}'  >>& $OUTDIR/$OUTFILE
+ ls -l $OUTDIR/$I.xyz|awk '{printf("%-8s %s %s %s\n"),$5,$6,$7,$8}'>>&$OUTDIR/$OUTFILE
+ echo file fort.33 saved as $OUTDIR/$I.xyz
+endif
+
+if(-e fort.34  && ! -z fort.34 ) then
+ cp fort.34 $OUTDIR/$I.gui
+ echo fort.34  $I.gui|awk '{printf("%-18s %-18s"),$1,$2}'  >>& $OUTDIR/$OUTFILE
+ ls -l $OUTDIR/$I.gui|awk '{printf("%-8s %s %s %s\n"),$5,$6,$7,$8}'>>&$OUTDIR/$OUTFILE
+ echo file fort.34 saved as $OUTDIR/$I.gui
+endif
+
+if(-e fort.98  && ! -z fort.98 ) then
+ cp fort.98 $OUTDIR/$I.f98
+ echo fort.98  $I.f98|awk '{printf("%-18s %-18s"),$1,$2}'  >>& $OUTDIR/$OUTFILE
+ ls -l $OUTDIR/$I.f98|awk '{printf("%-8s %s %s %s\n"),$5,$6,$7,$8}'>>&$OUTDIR/$OUTFILE
+ echo file fort.98 saved as $OUTDIR/$I.f98
+endif
+
+ if(-e  GEOMETRY.CIF  && ! -z  GEOMETRY.CIF ) then
+ cp  GEOMETRY.CIF $OUTDIR/$I.cif
+ echo GEOMETRY.CIF $I.cif |awk '{printf("%-18s %-18s"),$1,$2}'  >>& $OUTDIR/$OUTFILE
+ ls -l     $OUTDIR/$I.cif |awk '{printf("%-8s %s %s %s\n"),$5,$6,$7,$8}' \
+                            >>&$OUTDIR/$OUTFILE
+ echo file GEOMETRY.CIF saved as $OUTDIR/$I.cif
+ endif
+
+ if(-e  SCFOUT.LOG  && ! -z  SCFOUT.LOG ) then
+ cp  SCFOUT.LOG $OUTDIR/$I.SCFLOG
+ echo SCFOUT.LOG $I.SCFLOG |awk '{printf("%-18s %-18s"),$1,$2}'  >>& $OUTDIR/$OUTFILE
+ ls -l   $OUTDIR/$I.SCFLOG |awk '{printf("%-8s %s %s %s\n"),$5,$6,$7,$8}' \
+                            >>&$OUTDIR/$OUTFILE
+ echo file SCFOUT.LOG saved as $OUTDIR/$I.SCFLOG
+ endif
+
+ if(-e STRUC.INCOOR && ! -z STRUC.INCOOR) then
+ cp STRUC.INCOOR $OUTDIR/$I.STRUC
+ echo STRUC.INCOOR $I.STRUC|awk '{printf("%-18s %-18s"),$1,$2}'  >>& $OUTDIR/$OUTFILE
+ ls -l     $OUTDIR/$I.STRUC|awk '{printf("%-8s %s %s %s\n"),$5,$6,$7,$8}' \
+                            >>&$OUTDIR/$OUTFILE
+ echo file STRUC.INCOOR saved as $OUTDIR/$I.STRUC 
+ endif
+ 
+foreach NODAT_FILE ( ACLIMAX BAND BORN DIEL DOSS FINDSYM FREQINFO \
+                     GAUSSIAN GRED MOLDRAW KIBZ KRED OPTHESS \
+                     OPTINFO PHONBANDS PHONDOS PHONONS POTC PPAN RHOLINE EOSINFO \
+                     IRDIEL IRREFR IRSPEC RAMSPEC TENS_RAMAN )
+ 
+ set DAT_FILE=$NODAT_FILE".DAT"
+ if(-e $DAT_FILE && ! -z $DAT_FILE ) then
+ set SAVEDFILE=$I"."$NODAT_FILE
+ cp $DAT_FILE $OUTDIR/$SAVEDFILE
+ echo $DAT_FILE $SAVEDFILE|awk '{printf("%-18s %-18s"),$1,$2}'  >>& $OUTDIR/$OUTFILE
+ ls -l $OUTDIR/$SAVEDFILE |awk '{printf("%-8s %s %s %s\n"),$5,$6,$7,$8}' \
+                           >>&$OUTDIR/$OUTFILE
+ echo file $DAT_FILE saved as $OUTDIR/$SAVEDFILE
+ endif
+ 
+end
+
+if(-e fort.9.tsk0  && ! -z fort.9.tsk0 ) then
+ cp fort.9.tsk0 $OUTDIR/$I.f9
+ echo fort.9.tsk0  $I.f9|awk '{printf("%-18s %-18s"),$1,$2}'       >>& $OUTDIR/$OUTFILE
+ ls -l $OUTDIR/$I.f9|awk '{printf("%-8s %s %s %s\n"),$5,$6,$7,$8}' >>&$OUTDIR/$OUTFILE
+ echo file fort.9.tsk0 saved as $OUTDIR/$I.f9
+ set MASTER_WITH_PROC_0="YES"
+endif
+
+if(-e FREQINFO.DAT.tsk0  && ! -z FREQINFO.DAT.tsk0 ) then
+ cp FREQINFO.DAT.tsk0 $OUTDIR/$I.FREQINFO
+ echo FREQINFO.DAT.tsk0  $I.FREQINFO|awk '{printf("%-18s %-18s"),$1,$2}'  >>& $OUTDIR/$OUTFILE
+ ls -l $OUTDIR/$I.FREQINFO|awk '{printf("%-8s %s %s %s\n"),$5,$6,$7,$8}'  >>&$OUTDIR/$OUTFILE
+ echo file FREQINFO.DAT.tsk0 saved as $OUTDIR/$I.FREQINFO
+endif
+
+
+ echo " " >>& $OUTDIR/$OUTFILE
+
+ set OPTSTORY = `ls -1 *|awk 'BEGIN{C="no"};{if($0~"opt"){C="yes"}};END{print C}'` 
+ if( $OPTSTORY == "yes" ) then
+ mkdir $OUTDIR/$I.optstory
+ cp opt* $OUTDIR/$I.optstory/
+ echo file "opt files" saved as $OUTDIR/$I.optstory/opt* >>& $OUTDIR/$OUTFILE
+ echo history of geometry during optimization - file opt* saved as $OUTDIR/$I.optstory/*
+ endif
+ 
+ ls SCAN* >& /dev/null
+ if($? == 0) then 
+  mkdir $OUTDIR/$I.scans
+  cp SCAN* $OUTDIR/$I.scans
+  echo phonon scan profiles saved in $OUTDIR/$I.scans
+ endif
+ 
+ if(-e fort.13  && ! -z fort.13 ) then
+ cp fort.13 $OUTDIR/$I.f13
+ echo file fort.13 saved as $OUTDIR/$I.f13 >>& $OUTDIR/$OUTFILE
+ echo file fort.13 saved as $OUTDIR/$I.f13
+ endif
+
+ if(-e fort.28  && ! -z fort.28 ) then
+ cp fort.28 $OUTDIR/$I.f28
+ echo file fort.28 saved as $OUTDIR/$I.f28 >>& $OUTDIR/$OUTFILE
+ echo file fort.28 saved as $OUTDIR/$I.f28
+ endif
+
+ if(-e fort.25  && ! -z fort.25 ) then
+ cp fort.25 $OUTDIR/$I.f25
+ echo file fort.25 saved as $OUTDIR/$I.f25 >>& $OUTDIR/$OUTFILE
+ echo file fort.25 saved as $OUTDIR/$I.f25
+ endif
+
+ if(-e fort.27  && ! -z fort.27 ) then
+ cp fort.27 $OUTDIR/$I.pol
+ echo file fort.27 saved as $OUTDIR/$I.pol >>& $OUTDIR/$OUTFILE
+ echo file fort.27 saved as $OUTDIR/$I.pol
+ endif
+
+ if(-e fort.31  && ! -z fort.31 ) then
+ cp fort.31 $OUTDIR/${I}_dat.prop3d
+ echo file fort.31 saved as $OUTDIR/${I}_dat.prop3d >>& $OUTDIR/$OUTFILE
+ echo file fort.31 saved as $OUTDIR/${I}_dat.prop3d
+ endif
+
+ if(-e fort.32  && ! -z fort.32 ) then
+ cp fort.32 $OUTDIR/${I}_dat.info3d
+ echo file fort.32 saved as $OUTDIR/${I}_dat.info3d >>& $OUTDIR/$OUTFILE
+ echo file fort.32 saved as $OUTDIR/${I}_dat.info3d
+ endif
+
+ if(-e fort.36  && ! -z fort.36 ) then
+ cp fort.36 $OUTDIR/$I.sym
+ echo file fort.36 saved as $OUTDIR/$I.sym >>& $OUTDIR/$OUTFILE
+ echo file fort.36 saved as $OUTDIR/$I.sym
+ endif
+
+ if(-e fort.37  && ! -z fort.37 ) then
+ cp fort.37 $OUTDIR/$I.loc
+ echo file fort.37 saved as $OUTDIR/$I.loc >>& $OUTDIR/$OUTFILE
+ echo file fort.37 saved as $OUTDIR/$I.loc
+ endif
+
+ if(-e fort.80  && ! -z fort.80 ) then
+ cp fort.80 $OUTDIR/$I.f80
+ echo file fort.80 saved as $OUTDIR/$I.f80 >>& $OUTDIR/$OUTFILE
+ echo file fort.80 saved as $OUTDIR/$I.f80
+ endif
+
+ if(-e fort.91  && ! -z fort.91 ) then
+ cp fort.91 $OUTDIR/$I.f91
+ echo file fort.91 saved as $OUTDIR/$I.f91 >>& $OUTDIR/$OUTFILE
+ echo file fort.91 saved as $OUTDIR/$I.f91
+ endif
+
+ if(-e phonons.dlv  && ! -z phonons.dlv ) then
+ cp phonons.dlv $OUTDIR/${I}_phonons.dlv
+ echo file phonons.dlv saved as $OUTDIR/${I}_phonons.dlv >>& $OUTDIR/$OUTFILE
+ echo file phonons.dlv saved as $OUTDIR/${I}_phonons.dlv
+ endif
+
+
+ echo -n "Disk usage:"  >>& $OUTDIR/$OUTFILE
+ ls -l  $TMPDIR/        >>& $OUTDIR/$OUTFILE
+ echo "<du -m>"         >>& $OUTDIR/$OUTFILE
+ du -m  $TMPDIR/        >>& $OUTDIR/$OUTFILE
+ echo "</du -m>"        >>& $OUTDIR/$OUTFILE
+ df .   $TMPDIR/        >>& $OUTDIR/$OUTFILE
+
+#tag_end_for_checkfile
+
+
+if ( ${?MASTER_WITH_PROC_0} ) then
+ touch ${TMPDIR}/checkfile0
+else
+### start checkfile ###
+cat << EOF > ${TMPDIR}/checkfile0
+#!/bin/csh -f
+set I=$I
+set OUTDIR=$OUTDIR
+set OUTFILE=$OUTFILE 
+set TMPDIR=$TMPDIR
+cd  ${TMPDIR}
+EOF
+sed '1,/^#tag_s/d;/^#tag_e/,$d'  ${TMPDIR}/$SCRIPT >> ${TMPDIR}/checkfile0
+chmod 755 ${TMPDIR}/checkfile0
+hostname
+echo '<checkfile0>'
+cat ${TMPDIR}/checkfile0
+echo '</checkfile0>'
+### end checkfile ###
+endif
+
+if ( ${?PBS_NODEFILE}) then
+ foreach PC ($PCLIST)
+  echo "#########"         >> $OUTDIR/$OUTFILE
+  echo "node: "$PC         >> $OUTDIR/$OUTFILE
+  echo "scp ${TMPDIR}/checkfile0   ${PC}:${TMPDIR}/checkfile"
+  scp ${TMPDIR}/checkfile0   ${PC}:${TMPDIR}/checkfile
+# ssh $PC "ls -l  $TMPDIR/ >> $OUTDIR/$OUTFILE"
+# ssh $PC "du -m  $TMPDIR/ >> $OUTDIR/$OUTFILE"
+# ssh $PC "df .   $TMPDIR/ >> $OUTDIR/$OUTFILE"
+  ssh $PC "                   ${TMPDIR}/checkfile"
+ end
+endif
+
+
+ cd $OUTDIR
+ rm -fr $TMPDIR/ &
+ exit
+
+
+ if(-e $I.f25  && ! -z $I.f25 ) then
+ echo output of Crgra in file $OUTDIR/$OUTFILE"g"
+ $CRY2K6_GRA/maps06 $I >>& $OUTDIR/$OUTFILE"g"
+ if(-e ${I}_maps06.ps  && ! -z ${I}_maps06.ps) then
+ echo contour maps postscript file $OUTDIR/${I}_maps06.ps  >>& $OUTDIR/$OUTFILE
+ echo contour maps postscript file $OUTDIR/${I}_maps06.ps  
+ endif
+ $CRY2K6_GRA/doss06 $I >>& $OUTDIR/$OUTFILE"g"
+ if(-e ${I}_doss06.ps  && ! -z $I.doss06) then
+ echo doss postscript file $OUTDIR/${I}_doss06.ps >>& $OUTDIR/$OUTFILE
+ echo doss postscript file $OUTDIR/${I}_doss06.ps
+ endif
+ $CRY2K6_GRA/band06 $I >>& $OUTDIR/$OUTFILE"g"
+ if(-e ${I}_band06.ps  && ! -z ${I}_band06.ps) then
+ echo band postscript file $OUTDIR/${I}_band06.ps >>& $OUTDIR/$OUTFILE
+ echo band postscript file $OUTDIR/${I}_band06.ps
+ endif
+ endif
+
+ if (! $?scfok ) then
+ echo  $TMPDIR removed >>& $OUTDIR/$OUTFILE
+ rm -R -f $TMPDIR
+ else
+ echo SCF abend - $TMPDIR not removed
+ echo  $TMPDIR not removed >>& $OUTDIR/$OUTFILE
+ endif
+ exit
+</script>
+DATE START:Fri 29 Apr 13:55:58 BST 2022
+${PBS_NODEFILE} found: /var/spool/PBS/aux/5493422.pbs
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+cx3-4-15.cx3.hpc.ic.ac.uk
+/rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.out
+input expected in /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.d12
+tmp /var/tmp/pbs.5493422.pbs/LTS_4007_PBE_1910742
+INPUT has been copied in  cx3-4-15.cx3.hpc.ic.ac.uk : /var/tmp/pbs.5493422.pbs/LTS_4007_PBE_1910742/INPUT
+wave function binary file /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.f9
+file fort.20 saved as /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.f20
+file fort.33 saved as /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.xyz
+file fort.34 saved as /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.gui
+file fort.98 saved as /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.f98
+file OPTINFO.DAT saved as /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.OPTINFO
+file PPAN.DAT saved as /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.PPAN
+history of geometry during optimization - file optc001 optc002 optc003 optc004 optc005 optc006 optc007 optc008 optc009 optc010 optc011 optc012 optc013 optc014 optc015 optc016 optc017 optc018 optc020 optc021 optc022 optc023 optc024 optc025 optc026 optc027 optc028 optc029 optc030 optc031 optc032 optc033 optc034 optc035 optc036 optc038 optc039 optc040 optc041 optc042 optc044 optc045 optc046 optc047 optc049 optc050 optc051 optc052 optc053 optc055 optc056 optc057 optc058 optc059 optc061 optc062 optc063 optc064 optc065 optc066 optc068 optc069 optc070 optc071 optc072 optc073 optc075 optc076 optc077 saved as /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc001 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc002 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc003 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc004 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc005 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc006 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc007 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc008 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc009 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc010 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc011 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc012 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc013 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc014 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc015 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc016 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc017 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc018 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc020 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc021 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc022 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc023 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc024 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc025 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc026 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc027 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc028 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc029 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc030 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc031 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc032 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc033 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc034 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc035 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc036 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc038 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc039 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc040 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc041 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc042 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc044 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc045 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc046 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc047 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc049 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc050 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc051 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc052 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc053 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc055 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc056 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc057 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc058 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc059 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc061 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc062 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc063 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc064 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc065 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc066 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc068 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc069 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc070 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc071 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc072 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc073 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc075 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc076 /rds/general/user/bc713/home/classification/LTS/sg_225/LTS_4007_PBE.optstory/optc077
+scp /var/tmp/pbs.5493422.pbs/LTS_4007_PBE_1910742/checkfile0   cx3-4-15.cx3.hpc.ic.ac.uk:/var/tmp/pbs.5493422.pbs/LTS_4007_PBE_1910742/checkfile
+[1] 1913850
+DATE END:Fri 29 Apr 14:41:17 BST 2022
+DONE
