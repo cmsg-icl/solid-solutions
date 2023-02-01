@@ -1,0 +1,1552 @@
+Lmod has detected the following error: The following module(s) are unknown:
+"epcc-job-env"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore-cache load "epcc-job-env"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+
+Warning: You have enabled access to software packages installed
+by external parties on ARCHER2 or those that are not fully-supported.
+The ARCHER2 CSE service does not test these packages. The service desk
+will make reasonable efforts to assist with questions on the use of
+these packages but some issues may not be able to be resolved by the
+service and they may direct you to seek help from external parties.
+
+
+Output exists: CaMgO_cell_901.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_901_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_901_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_901_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_901_/checkfile0': No such file or directory
+nid006460
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_901_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_902.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_902_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_902_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_902_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_902_/checkfile0': No such file or directory
+nid006460
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_902_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_903.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_903_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_903_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_903_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_903_/checkfile0': No such file or directory
+nid006460
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_903_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_904.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_904_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_904_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_904_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_904_/checkfile0': No such file or directory
+nid006460
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_904_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_905.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_905_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_905_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_905_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_905_/checkfile0': No such file or directory
+nid006460
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_905_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_906.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_906_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_906_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_906_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_906_/checkfile0': No such file or directory
+nid006460
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_906_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_907.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_907_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_907_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_907_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_907_/checkfile0': No such file or directory
+nid006460
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_907_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_908.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_908_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_908_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_908_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_908_/checkfile0': No such file or directory
+nid006460
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_908_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_909.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_909_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_909_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_909_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_909_/checkfile0': No such file or directory
+nid006460
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_909_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_910.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_910_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_910_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_910_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_910_/checkfile0': No such file or directory
+nid006460
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_910_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_911.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_911_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_911_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_911_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_911_/checkfile0': No such file or directory
+nid006460
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_911_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_912.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_912_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_912_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_912_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_912_/checkfile0': No such file or directory
+nid006460
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_912_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_913.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_913_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_913_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_913_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_913_/checkfile0': No such file or directory
+nid006460
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_913_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_914.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_914_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_914_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_914_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_914_/checkfile0': No such file or directory
+nid006460
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_914_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_915.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_915_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_915_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_915_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_915_/checkfile0': No such file or directory
+nid006460
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_915_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_916.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_916_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_916_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_916_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_916_/checkfile0': No such file or directory
+nid006460
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_916_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_917.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_917_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_917_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_917_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_917_/checkfile0': No such file or directory
+nid006460
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_917_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_918.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_918_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_918_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_918_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_918_/checkfile0': No such file or directory
+nid006460
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_918_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_919.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_919_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_919_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_919_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_919_/checkfile0': No such file or directory
+nid006460
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_919_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_920.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_920_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_920_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_920_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_920_/checkfile0': No such file or directory
+nid006460
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_920_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_921.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_921_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_921_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_921_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_921_/checkfile0': No such file or directory
+nid006460
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_921_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_922.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_922_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_922_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_922_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_922_/checkfile0': No such file or directory
+nid006460
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_922_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_923.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_923_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_923_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_923_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_923_/checkfile0': No such file or directory
+nid006460
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_923_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_924.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_924_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_924_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_924_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_924_/checkfile0': No such file or directory
+nid006460
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_924_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_925.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_925_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_925_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_925_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_925_/checkfile0': No such file or directory
+nid006460
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_925_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_926.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_926_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_926_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_926_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_926_/checkfile0': No such file or directory
+nid006460
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_926_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_927.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_927_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_927_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_927_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_927_/checkfile0': No such file or directory
+nid006460
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_927_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_928.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_928_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_928_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_928_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_928_/checkfile0': No such file or directory
+nid006460
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_928_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_929.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_929_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_929_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_929_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_929_/checkfile0': No such file or directory
+nid006460
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_929_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+printed output filename CaMgO_cell_930.out
+srun --hint=nomultithread --distribution=block:block
+creating temporary directory /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_930_
+<script>
+# Generate basic information of output file
+
+OUTDIR=`pwd`
+INPDIR=`pwd`
+
+echo "output file: ${OUTDIR}/${OUTPUT}"
+cat << EOF > ${OUTDIR}/${OUTPUT}
+date:                `date`
+hostname:            `hostname`
+system:              `uname -a`
+user:                `whoami`
+input:               ${OUTDIR}/${JOBNAME}.d12
+output:              ${OUTDIR}/${OUTPUT}
+executable script:   $0
+executable:          ${CRYSTAL_TYPE}
+Command:             ${CRYCOMMAND}
+Slurm JobID:         ${JOBID}
+temporary directory: ${JOBTMPDIR}      
+EOF
+
+if [[ ! -z ${JOBID} ]]; then
+    echo "<squeue -j ${JOBID}>"  >> ${OUTDIR}/${OUTPUT}
+    squeue -j ${JOBID}           >> ${OUTDIR}/${OUTPUT} 2>&1
+    echo "</squeue -j ${JOBID}>" >> ${OUTDIR}/${OUTPUT}
+fi
+
+echo "temporary directory: ${JOBTMPDIR}"
+
+# Prepare input files
+
+## Read list
+
+LINE_PRECALC=`grep -nw 'PRE_CALC' ${SETFILE}`
+LINE_PRECALC=`echo "scale=0;${LINE_PRECALC%%:*}+4" | bc`
+
+SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+
+## Mandatory files
+
+### d12 and d3
+
+if [[ -e ${INPDIR}/${JOBNAME}.d3 && -s ${INPDIR}/${JOBNAME}.d3 ]]; then
+    echo "Error: Properties calculation input identified. Remove it before continuing."
+    echo "Exit without calculation."
+    exit
+fi
+
+while [[ ${TMP_NAME} != 'RESTART' ]]; do
+    if [[ -e ${INPDIR}/${JOBNAME}${SAVED_NAME} && -s ${INPDIR}/${JOBNAME}${SAVED_NAME} ]]; then
+
+### Copy files to the main temporary directory
+
+        echo "input expected in ${INPDIR}/${JOBNAME}${SAVED_NAME}"
+        echo "input data ${INPDIR}/${JOBNAME}${SAVED_NAME}" >> ${OUTDIR}/${OUTPUT} 2>&1
+        if [[ ${SAVED_NAME} == '.d12' ]]; then
+            cat ${INPDIR}/${JOBNAME}${SAVED_NAME} >> ${OUTDIR}/${OUTPUT} 2>&1
+        fi
+        cp ${INPDIR}/${JOBNAME}${SAVED_NAME} ${JOBTMPDIR}/${TMP_NAME}
+        echo "input ${JOBNAME}${SAVED_NAME} copied."
+    else
+        echo "Input data ${INPDIR}/${JOBNAME}${SAVED_NAME} not found or empty."
+    fi
+
+    LINE_PRECALC=`echo "scale=0;${LINE_PRECALC}+1" | bc`
+    SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+    TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+done
+
+## Restart files
+
+if [[ $# > 1 ]]; then
+    PRE_JOB=`echo $2`
+    LINE_PRECALC=`echo "scale=0;${LINE_PRECALC}+1" | bc`
+    SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+    TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+    while [[ ! -z ${TMP_NAME} ]]; do
+        if [[ -e ${INPDIR}/${PRE_JOB}${SAVED_NAME} && -s ${INPDIR}/${PRE_JOB}${SAVED_NAME} ]]; then
+
+### Copy files to the main temporary directory
+
+            cp ${INPDIR}/${PRE_JOB}${SAVED_NAME} ${JOBTMPDIR}/${TMP_NAME}
+            echo "File found: ${INPDIR}/${PRE_JOB}${SAVED_NAME}, temporarily saved as ${JOBTMPDIR}/${TMP_NAME}" >> ${OUTDIR}/${OUTPUT} 2>&1
+            echo "File found: ${INPDIR}/${PRE_JOB}${SAVED_NAME}, temporarily saved as ${JOBTMPDIR}/${TMP_NAME}" 
+        fi
+
+        LINE_PRECALC=`echo "scale=0;${LINE_PRECALC}+1" | bc`
+        SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+        TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+    done
+fi
+
+# Launch calculations
+
+cd ${JOBTMPDIR}
+${CRYCOMMAND} >> ${OUTDIR}/${OUTPUT} 2>&1
+
+exit
+</script>
+DATE START:Fri Jan 27 23:13:15 GMT 2023
+output file: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_930.out
+temporary directory: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_930_
+input expected in /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_930.d12
+input CaMgO_cell_930.d12 copied.
+Input data /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_930.d3 not found or empty.
+input expected in /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_930.gui
+input CaMgO_cell_930.gui copied.
+Input data /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_930.POINTCHG not found or empty.
+File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_930.f9, temporarily saved as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_930_/fort.20
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_930_/fort.34 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_930.gui
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_930_/fort.33 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_930.xyz
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_930_/fort.9 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_930.f9
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_930_/fort.98 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_930.f98
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_930_/SCFOUT.LOG as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_930.SCFLOG
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_930_/OPTINFO.DAT as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_930.OPTINFO
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_930_/HESSOPT.DAT as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_930.HESSOPT
+Files saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_930_/opt* as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_930.optstory/
+mv: cannot stat 'slurm-.out': No such file or directory
+printed output filename CaMgO_cell_931.out
+srun --hint=nomultithread --distribution=block:block
+creating temporary directory /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_931_
+<script>
+# Generate basic information of output file
+
+OUTDIR=`pwd`
+INPDIR=`pwd`
+
+echo "output file: ${OUTDIR}/${OUTPUT}"
+cat << EOF > ${OUTDIR}/${OUTPUT}
+date:                `date`
+hostname:            `hostname`
+system:              `uname -a`
+user:                `whoami`
+input:               ${OUTDIR}/${JOBNAME}.d12
+output:              ${OUTDIR}/${OUTPUT}
+executable script:   $0
+executable:          ${CRYSTAL_TYPE}
+Command:             ${CRYCOMMAND}
+Slurm JobID:         ${JOBID}
+temporary directory: ${JOBTMPDIR}      
+EOF
+
+if [[ ! -z ${JOBID} ]]; then
+    echo "<squeue -j ${JOBID}>"  >> ${OUTDIR}/${OUTPUT}
+    squeue -j ${JOBID}           >> ${OUTDIR}/${OUTPUT} 2>&1
+    echo "</squeue -j ${JOBID}>" >> ${OUTDIR}/${OUTPUT}
+fi
+
+echo "temporary directory: ${JOBTMPDIR}"
+
+# Prepare input files
+
+## Read list
+
+LINE_PRECALC=`grep -nw 'PRE_CALC' ${SETFILE}`
+LINE_PRECALC=`echo "scale=0;${LINE_PRECALC%%:*}+4" | bc`
+
+SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+
+## Mandatory files
+
+### d12 and d3
+
+if [[ -e ${INPDIR}/${JOBNAME}.d3 && -s ${INPDIR}/${JOBNAME}.d3 ]]; then
+    echo "Error: Properties calculation input identified. Remove it before continuing."
+    echo "Exit without calculation."
+    exit
+fi
+
+while [[ ${TMP_NAME} != 'RESTART' ]]; do
+    if [[ -e ${INPDIR}/${JOBNAME}${SAVED_NAME} && -s ${INPDIR}/${JOBNAME}${SAVED_NAME} ]]; then
+
+### Copy files to the main temporary directory
+
+        echo "input expected in ${INPDIR}/${JOBNAME}${SAVED_NAME}"
+        echo "input data ${INPDIR}/${JOBNAME}${SAVED_NAME}" >> ${OUTDIR}/${OUTPUT} 2>&1
+        if [[ ${SAVED_NAME} == '.d12' ]]; then
+            cat ${INPDIR}/${JOBNAME}${SAVED_NAME} >> ${OUTDIR}/${OUTPUT} 2>&1
+        fi
+        cp ${INPDIR}/${JOBNAME}${SAVED_NAME} ${JOBTMPDIR}/${TMP_NAME}
+        echo "input ${JOBNAME}${SAVED_NAME} copied."
+    else
+        echo "Input data ${INPDIR}/${JOBNAME}${SAVED_NAME} not found or empty."
+    fi
+
+    LINE_PRECALC=`echo "scale=0;${LINE_PRECALC}+1" | bc`
+    SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+    TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+done
+
+## Restart files
+
+if [[ $# > 1 ]]; then
+    PRE_JOB=`echo $2`
+    LINE_PRECALC=`echo "scale=0;${LINE_PRECALC}+1" | bc`
+    SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+    TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+    while [[ ! -z ${TMP_NAME} ]]; do
+        if [[ -e ${INPDIR}/${PRE_JOB}${SAVED_NAME} && -s ${INPDIR}/${PRE_JOB}${SAVED_NAME} ]]; then
+
+### Copy files to the main temporary directory
+
+            cp ${INPDIR}/${PRE_JOB}${SAVED_NAME} ${JOBTMPDIR}/${TMP_NAME}
+            echo "File found: ${INPDIR}/${PRE_JOB}${SAVED_NAME}, temporarily saved as ${JOBTMPDIR}/${TMP_NAME}" >> ${OUTDIR}/${OUTPUT} 2>&1
+            echo "File found: ${INPDIR}/${PRE_JOB}${SAVED_NAME}, temporarily saved as ${JOBTMPDIR}/${TMP_NAME}" 
+        fi
+
+        LINE_PRECALC=`echo "scale=0;${LINE_PRECALC}+1" | bc`
+        SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+        TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+    done
+fi
+
+# Launch calculations
+
+cd ${JOBTMPDIR}
+${CRYCOMMAND} >> ${OUTDIR}/${OUTPUT} 2>&1
+
+exit
+</script>
+DATE START:Sat Jan 28 00:03:27 GMT 2023
+output file: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_931.out
+temporary directory: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_931_
+input expected in /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_931.d12
+input CaMgO_cell_931.d12 copied.
+Input data /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_931.d3 not found or empty.
+input expected in /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_931.gui
+input CaMgO_cell_931.gui copied.
+Input data /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_931.POINTCHG not found or empty.
+File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_931.f9, temporarily saved as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_931_/fort.20
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_931_/fort.34 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_931.gui
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_931_/fort.33 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_931.xyz
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_931_/fort.9 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_931.f9
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_931_/fort.98 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_931.f98
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_931_/SCFOUT.LOG as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_931.SCFLOG
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_931_/OPTINFO.DAT as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_931.OPTINFO
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_931_/HESSOPT.DAT as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_931.HESSOPT
+Files saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_931_/opt* as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_931.optstory/
+mv: cannot stat 'slurm-.out': No such file or directory
+printed output filename CaMgO_cell_932.out
+srun --hint=nomultithread --distribution=block:block
+creating temporary directory /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_932_
+<script>
+# Generate basic information of output file
+
+OUTDIR=`pwd`
+INPDIR=`pwd`
+
+echo "output file: ${OUTDIR}/${OUTPUT}"
+cat << EOF > ${OUTDIR}/${OUTPUT}
+date:                `date`
+hostname:            `hostname`
+system:              `uname -a`
+user:                `whoami`
+input:               ${OUTDIR}/${JOBNAME}.d12
+output:              ${OUTDIR}/${OUTPUT}
+executable script:   $0
+executable:          ${CRYSTAL_TYPE}
+Command:             ${CRYCOMMAND}
+Slurm JobID:         ${JOBID}
+temporary directory: ${JOBTMPDIR}      
+EOF
+
+if [[ ! -z ${JOBID} ]]; then
+    echo "<squeue -j ${JOBID}>"  >> ${OUTDIR}/${OUTPUT}
+    squeue -j ${JOBID}           >> ${OUTDIR}/${OUTPUT} 2>&1
+    echo "</squeue -j ${JOBID}>" >> ${OUTDIR}/${OUTPUT}
+fi
+
+echo "temporary directory: ${JOBTMPDIR}"
+
+# Prepare input files
+
+## Read list
+
+LINE_PRECALC=`grep -nw 'PRE_CALC' ${SETFILE}`
+LINE_PRECALC=`echo "scale=0;${LINE_PRECALC%%:*}+4" | bc`
+
+SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+
+## Mandatory files
+
+### d12 and d3
+
+if [[ -e ${INPDIR}/${JOBNAME}.d3 && -s ${INPDIR}/${JOBNAME}.d3 ]]; then
+    echo "Error: Properties calculation input identified. Remove it before continuing."
+    echo "Exit without calculation."
+    exit
+fi
+
+while [[ ${TMP_NAME} != 'RESTART' ]]; do
+    if [[ -e ${INPDIR}/${JOBNAME}${SAVED_NAME} && -s ${INPDIR}/${JOBNAME}${SAVED_NAME} ]]; then
+
+### Copy files to the main temporary directory
+
+        echo "input expected in ${INPDIR}/${JOBNAME}${SAVED_NAME}"
+        echo "input data ${INPDIR}/${JOBNAME}${SAVED_NAME}" >> ${OUTDIR}/${OUTPUT} 2>&1
+        if [[ ${SAVED_NAME} == '.d12' ]]; then
+            cat ${INPDIR}/${JOBNAME}${SAVED_NAME} >> ${OUTDIR}/${OUTPUT} 2>&1
+        fi
+        cp ${INPDIR}/${JOBNAME}${SAVED_NAME} ${JOBTMPDIR}/${TMP_NAME}
+        echo "input ${JOBNAME}${SAVED_NAME} copied."
+    else
+        echo "Input data ${INPDIR}/${JOBNAME}${SAVED_NAME} not found or empty."
+    fi
+
+    LINE_PRECALC=`echo "scale=0;${LINE_PRECALC}+1" | bc`
+    SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+    TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+done
+
+## Restart files
+
+if [[ $# > 1 ]]; then
+    PRE_JOB=`echo $2`
+    LINE_PRECALC=`echo "scale=0;${LINE_PRECALC}+1" | bc`
+    SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+    TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+    while [[ ! -z ${TMP_NAME} ]]; do
+        if [[ -e ${INPDIR}/${PRE_JOB}${SAVED_NAME} && -s ${INPDIR}/${PRE_JOB}${SAVED_NAME} ]]; then
+
+### Copy files to the main temporary directory
+
+            cp ${INPDIR}/${PRE_JOB}${SAVED_NAME} ${JOBTMPDIR}/${TMP_NAME}
+            echo "File found: ${INPDIR}/${PRE_JOB}${SAVED_NAME}, temporarily saved as ${JOBTMPDIR}/${TMP_NAME}" >> ${OUTDIR}/${OUTPUT} 2>&1
+            echo "File found: ${INPDIR}/${PRE_JOB}${SAVED_NAME}, temporarily saved as ${JOBTMPDIR}/${TMP_NAME}" 
+        fi
+
+        LINE_PRECALC=`echo "scale=0;${LINE_PRECALC}+1" | bc`
+        SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+        TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+    done
+fi
+
+# Launch calculations
+
+cd ${JOBTMPDIR}
+${CRYCOMMAND} >> ${OUTDIR}/${OUTPUT} 2>&1
+
+exit
+</script>
+DATE START:Sat Jan 28 03:03:39 GMT 2023
+output file: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_932.out
+temporary directory: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_932_
+input expected in /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_932.d12
+input CaMgO_cell_932.d12 copied.
+Input data /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_932.d3 not found or empty.
+input expected in /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_932.gui
+input CaMgO_cell_932.gui copied.
+Input data /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_932.POINTCHG not found or empty.
+File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_932.f9, temporarily saved as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_932_/fort.20
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_932_/fort.34 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_932.gui
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_932_/fort.33 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_932.xyz
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_932_/fort.9 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_932.f9
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_932_/fort.98 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_932.f98
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_932_/SCFOUT.LOG as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_932.SCFLOG
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_932_/OPTINFO.DAT as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_932.OPTINFO
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_932_/HESSOPT.DAT as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_932.HESSOPT
+Files saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_932_/opt* as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_932.optstory/
+mv: cannot stat 'slurm-.out': No such file or directory
+printed output filename CaMgO_cell_933.out
+srun --hint=nomultithread --distribution=block:block
+creating temporary directory /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_933_
+<script>
+# Generate basic information of output file
+
+OUTDIR=`pwd`
+INPDIR=`pwd`
+
+echo "output file: ${OUTDIR}/${OUTPUT}"
+cat << EOF > ${OUTDIR}/${OUTPUT}
+date:                `date`
+hostname:            `hostname`
+system:              `uname -a`
+user:                `whoami`
+input:               ${OUTDIR}/${JOBNAME}.d12
+output:              ${OUTDIR}/${OUTPUT}
+executable script:   $0
+executable:          ${CRYSTAL_TYPE}
+Command:             ${CRYCOMMAND}
+Slurm JobID:         ${JOBID}
+temporary directory: ${JOBTMPDIR}      
+EOF
+
+if [[ ! -z ${JOBID} ]]; then
+    echo "<squeue -j ${JOBID}>"  >> ${OUTDIR}/${OUTPUT}
+    squeue -j ${JOBID}           >> ${OUTDIR}/${OUTPUT} 2>&1
+    echo "</squeue -j ${JOBID}>" >> ${OUTDIR}/${OUTPUT}
+fi
+
+echo "temporary directory: ${JOBTMPDIR}"
+
+# Prepare input files
+
+## Read list
+
+LINE_PRECALC=`grep -nw 'PRE_CALC' ${SETFILE}`
+LINE_PRECALC=`echo "scale=0;${LINE_PRECALC%%:*}+4" | bc`
+
+SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+
+## Mandatory files
+
+### d12 and d3
+
+if [[ -e ${INPDIR}/${JOBNAME}.d3 && -s ${INPDIR}/${JOBNAME}.d3 ]]; then
+    echo "Error: Properties calculation input identified. Remove it before continuing."
+    echo "Exit without calculation."
+    exit
+fi
+
+while [[ ${TMP_NAME} != 'RESTART' ]]; do
+    if [[ -e ${INPDIR}/${JOBNAME}${SAVED_NAME} && -s ${INPDIR}/${JOBNAME}${SAVED_NAME} ]]; then
+
+### Copy files to the main temporary directory
+
+        echo "input expected in ${INPDIR}/${JOBNAME}${SAVED_NAME}"
+        echo "input data ${INPDIR}/${JOBNAME}${SAVED_NAME}" >> ${OUTDIR}/${OUTPUT} 2>&1
+        if [[ ${SAVED_NAME} == '.d12' ]]; then
+            cat ${INPDIR}/${JOBNAME}${SAVED_NAME} >> ${OUTDIR}/${OUTPUT} 2>&1
+        fi
+        cp ${INPDIR}/${JOBNAME}${SAVED_NAME} ${JOBTMPDIR}/${TMP_NAME}
+        echo "input ${JOBNAME}${SAVED_NAME} copied."
+    else
+        echo "Input data ${INPDIR}/${JOBNAME}${SAVED_NAME} not found or empty."
+    fi
+
+    LINE_PRECALC=`echo "scale=0;${LINE_PRECALC}+1" | bc`
+    SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+    TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+done
+
+## Restart files
+
+if [[ $# > 1 ]]; then
+    PRE_JOB=`echo $2`
+    LINE_PRECALC=`echo "scale=0;${LINE_PRECALC}+1" | bc`
+    SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+    TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+    while [[ ! -z ${TMP_NAME} ]]; do
+        if [[ -e ${INPDIR}/${PRE_JOB}${SAVED_NAME} && -s ${INPDIR}/${PRE_JOB}${SAVED_NAME} ]]; then
+
+### Copy files to the main temporary directory
+
+            cp ${INPDIR}/${PRE_JOB}${SAVED_NAME} ${JOBTMPDIR}/${TMP_NAME}
+            echo "File found: ${INPDIR}/${PRE_JOB}${SAVED_NAME}, temporarily saved as ${JOBTMPDIR}/${TMP_NAME}" >> ${OUTDIR}/${OUTPUT} 2>&1
+            echo "File found: ${INPDIR}/${PRE_JOB}${SAVED_NAME}, temporarily saved as ${JOBTMPDIR}/${TMP_NAME}" 
+        fi
+
+        LINE_PRECALC=`echo "scale=0;${LINE_PRECALC}+1" | bc`
+        SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+        TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+    done
+fi
+
+# Launch calculations
+
+cd ${JOBTMPDIR}
+${CRYCOMMAND} >> ${OUTDIR}/${OUTPUT} 2>&1
+
+exit
+</script>
+DATE START:Sat Jan 28 03:52:55 GMT 2023
+output file: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_933.out
+temporary directory: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_933_
+input expected in /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_933.d12
+input CaMgO_cell_933.d12 copied.
+Input data /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_933.d3 not found or empty.
+input expected in /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_933.gui
+input CaMgO_cell_933.gui copied.
+Input data /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_933.POINTCHG not found or empty.
+File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_933.f9, temporarily saved as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_933_/fort.20
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_933_/fort.34 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_933.gui
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_933_/fort.33 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_933.xyz
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_933_/fort.9 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_933.f9
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_933_/fort.98 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_933.f98
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_933_/SCFOUT.LOG as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_933.SCFLOG
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_933_/OPTINFO.DAT as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_933.OPTINFO
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_933_/HESSOPT.DAT as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_933.HESSOPT
+Files saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_933_/opt* as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_933.optstory/
+mv: cannot stat 'slurm-.out': No such file or directory
+printed output filename CaMgO_cell_934.out
+srun --hint=nomultithread --distribution=block:block
+creating temporary directory /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_934_
+<script>
+# Generate basic information of output file
+
+OUTDIR=`pwd`
+INPDIR=`pwd`
+
+echo "output file: ${OUTDIR}/${OUTPUT}"
+cat << EOF > ${OUTDIR}/${OUTPUT}
+date:                `date`
+hostname:            `hostname`
+system:              `uname -a`
+user:                `whoami`
+input:               ${OUTDIR}/${JOBNAME}.d12
+output:              ${OUTDIR}/${OUTPUT}
+executable script:   $0
+executable:          ${CRYSTAL_TYPE}
+Command:             ${CRYCOMMAND}
+Slurm JobID:         ${JOBID}
+temporary directory: ${JOBTMPDIR}      
+EOF
+
+if [[ ! -z ${JOBID} ]]; then
+    echo "<squeue -j ${JOBID}>"  >> ${OUTDIR}/${OUTPUT}
+    squeue -j ${JOBID}           >> ${OUTDIR}/${OUTPUT} 2>&1
+    echo "</squeue -j ${JOBID}>" >> ${OUTDIR}/${OUTPUT}
+fi
+
+echo "temporary directory: ${JOBTMPDIR}"
+
+# Prepare input files
+
+## Read list
+
+LINE_PRECALC=`grep -nw 'PRE_CALC' ${SETFILE}`
+LINE_PRECALC=`echo "scale=0;${LINE_PRECALC%%:*}+4" | bc`
+
+SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+
+## Mandatory files
+
+### d12 and d3
+
+if [[ -e ${INPDIR}/${JOBNAME}.d3 && -s ${INPDIR}/${JOBNAME}.d3 ]]; then
+    echo "Error: Properties calculation input identified. Remove it before continuing."
+    echo "Exit without calculation."
+    exit
+fi
+
+while [[ ${TMP_NAME} != 'RESTART' ]]; do
+    if [[ -e ${INPDIR}/${JOBNAME}${SAVED_NAME} && -s ${INPDIR}/${JOBNAME}${SAVED_NAME} ]]; then
+
+### Copy files to the main temporary directory
+
+        echo "input expected in ${INPDIR}/${JOBNAME}${SAVED_NAME}"
+        echo "input data ${INPDIR}/${JOBNAME}${SAVED_NAME}" >> ${OUTDIR}/${OUTPUT} 2>&1
+        if [[ ${SAVED_NAME} == '.d12' ]]; then
+            cat ${INPDIR}/${JOBNAME}${SAVED_NAME} >> ${OUTDIR}/${OUTPUT} 2>&1
+        fi
+        cp ${INPDIR}/${JOBNAME}${SAVED_NAME} ${JOBTMPDIR}/${TMP_NAME}
+        echo "input ${JOBNAME}${SAVED_NAME} copied."
+    else
+        echo "Input data ${INPDIR}/${JOBNAME}${SAVED_NAME} not found or empty."
+    fi
+
+    LINE_PRECALC=`echo "scale=0;${LINE_PRECALC}+1" | bc`
+    SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+    TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+done
+
+## Restart files
+
+if [[ $# > 1 ]]; then
+    PRE_JOB=`echo $2`
+    LINE_PRECALC=`echo "scale=0;${LINE_PRECALC}+1" | bc`
+    SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+    TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+    while [[ ! -z ${TMP_NAME} ]]; do
+        if [[ -e ${INPDIR}/${PRE_JOB}${SAVED_NAME} && -s ${INPDIR}/${PRE_JOB}${SAVED_NAME} ]]; then
+
+### Copy files to the main temporary directory
+
+            cp ${INPDIR}/${PRE_JOB}${SAVED_NAME} ${JOBTMPDIR}/${TMP_NAME}
+            echo "File found: ${INPDIR}/${PRE_JOB}${SAVED_NAME}, temporarily saved as ${JOBTMPDIR}/${TMP_NAME}" >> ${OUTDIR}/${OUTPUT} 2>&1
+            echo "File found: ${INPDIR}/${PRE_JOB}${SAVED_NAME}, temporarily saved as ${JOBTMPDIR}/${TMP_NAME}" 
+        fi
+
+        LINE_PRECALC=`echo "scale=0;${LINE_PRECALC}+1" | bc`
+        SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+        TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+    done
+fi
+
+# Launch calculations
+
+cd ${JOBTMPDIR}
+${CRYCOMMAND} >> ${OUTDIR}/${OUTPUT} 2>&1
+
+exit
+</script>
+DATE START:Sat Jan 28 07:07:37 GMT 2023
+output file: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_934.out
+temporary directory: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_934_
+input expected in /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_934.d12
+input CaMgO_cell_934.d12 copied.
+Input data /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_934.d3 not found or empty.
+input expected in /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_934.gui
+input CaMgO_cell_934.gui copied.
+Input data /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_934.POINTCHG not found or empty.
+File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_934.f9, temporarily saved as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_934_/fort.20
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_934_/fort.34 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_934.gui
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_934_/fort.33 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_934.xyz
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_934_/fort.9 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_934.f9
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_934_/fort.98 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_934.f98
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_934_/SCFOUT.LOG as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_934.SCFLOG
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_934_/OPTINFO.DAT as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_934.OPTINFO
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_934_/HESSOPT.DAT as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_934.HESSOPT
+Files saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_934_/opt* as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_934.optstory/
+mv: cannot stat 'slurm-.out': No such file or directory
+printed output filename CaMgO_cell_935.out
+srun --hint=nomultithread --distribution=block:block
+creating temporary directory /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_935_
+<script>
+# Generate basic information of output file
+
+OUTDIR=`pwd`
+INPDIR=`pwd`
+
+echo "output file: ${OUTDIR}/${OUTPUT}"
+cat << EOF > ${OUTDIR}/${OUTPUT}
+date:                `date`
+hostname:            `hostname`
+system:              `uname -a`
+user:                `whoami`
+input:               ${OUTDIR}/${JOBNAME}.d12
+output:              ${OUTDIR}/${OUTPUT}
+executable script:   $0
+executable:          ${CRYSTAL_TYPE}
+Command:             ${CRYCOMMAND}
+Slurm JobID:         ${JOBID}
+temporary directory: ${JOBTMPDIR}      
+EOF
+
+if [[ ! -z ${JOBID} ]]; then
+    echo "<squeue -j ${JOBID}>"  >> ${OUTDIR}/${OUTPUT}
+    squeue -j ${JOBID}           >> ${OUTDIR}/${OUTPUT} 2>&1
+    echo "</squeue -j ${JOBID}>" >> ${OUTDIR}/${OUTPUT}
+fi
+
+echo "temporary directory: ${JOBTMPDIR}"
+
+# Prepare input files
+
+## Read list
+
+LINE_PRECALC=`grep -nw 'PRE_CALC' ${SETFILE}`
+LINE_PRECALC=`echo "scale=0;${LINE_PRECALC%%:*}+4" | bc`
+
+SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+
+## Mandatory files
+
+### d12 and d3
+
+if [[ -e ${INPDIR}/${JOBNAME}.d3 && -s ${INPDIR}/${JOBNAME}.d3 ]]; then
+    echo "Error: Properties calculation input identified. Remove it before continuing."
+    echo "Exit without calculation."
+    exit
+fi
+
+while [[ ${TMP_NAME} != 'RESTART' ]]; do
+    if [[ -e ${INPDIR}/${JOBNAME}${SAVED_NAME} && -s ${INPDIR}/${JOBNAME}${SAVED_NAME} ]]; then
+
+### Copy files to the main temporary directory
+
+        echo "input expected in ${INPDIR}/${JOBNAME}${SAVED_NAME}"
+        echo "input data ${INPDIR}/${JOBNAME}${SAVED_NAME}" >> ${OUTDIR}/${OUTPUT} 2>&1
+        if [[ ${SAVED_NAME} == '.d12' ]]; then
+            cat ${INPDIR}/${JOBNAME}${SAVED_NAME} >> ${OUTDIR}/${OUTPUT} 2>&1
+        fi
+        cp ${INPDIR}/${JOBNAME}${SAVED_NAME} ${JOBTMPDIR}/${TMP_NAME}
+        echo "input ${JOBNAME}${SAVED_NAME} copied."
+    else
+        echo "Input data ${INPDIR}/${JOBNAME}${SAVED_NAME} not found or empty."
+    fi
+
+    LINE_PRECALC=`echo "scale=0;${LINE_PRECALC}+1" | bc`
+    SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+    TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+done
+
+## Restart files
+
+if [[ $# > 1 ]]; then
+    PRE_JOB=`echo $2`
+    LINE_PRECALC=`echo "scale=0;${LINE_PRECALC}+1" | bc`
+    SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+    TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+    while [[ ! -z ${TMP_NAME} ]]; do
+        if [[ -e ${INPDIR}/${PRE_JOB}${SAVED_NAME} && -s ${INPDIR}/${PRE_JOB}${SAVED_NAME} ]]; then
+
+### Copy files to the main temporary directory
+
+            cp ${INPDIR}/${PRE_JOB}${SAVED_NAME} ${JOBTMPDIR}/${TMP_NAME}
+            echo "File found: ${INPDIR}/${PRE_JOB}${SAVED_NAME}, temporarily saved as ${JOBTMPDIR}/${TMP_NAME}" >> ${OUTDIR}/${OUTPUT} 2>&1
+            echo "File found: ${INPDIR}/${PRE_JOB}${SAVED_NAME}, temporarily saved as ${JOBTMPDIR}/${TMP_NAME}" 
+        fi
+
+        LINE_PRECALC=`echo "scale=0;${LINE_PRECALC}+1" | bc`
+        SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+        TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+    done
+fi
+
+# Launch calculations
+
+cd ${JOBTMPDIR}
+${CRYCOMMAND} >> ${OUTDIR}/${OUTPUT} 2>&1
+
+exit
+</script>
+DATE START:Sat Jan 28 07:56:26 GMT 2023
+output file: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_935.out
+temporary directory: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_935_
+input expected in /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_935.d12
+input CaMgO_cell_935.d12 copied.
+Input data /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_935.d3 not found or empty.
+input expected in /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_935.gui
+input CaMgO_cell_935.gui copied.
+Input data /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_935.POINTCHG not found or empty.
+File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_935.f9, temporarily saved as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_935_/fort.20
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_935_/fort.34 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_935.gui
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_935_/fort.33 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_935.xyz
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_935_/fort.9 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_935.f9
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_935_/fort.98 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_935.f98
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_935_/SCFOUT.LOG as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_935.SCFLOG
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_935_/OPTINFO.DAT as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_935.OPTINFO
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_935_/HESSOPT.DAT as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_935.HESSOPT
+Files saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_935_/opt* as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_935.optstory/
+mv: cannot stat 'slurm-.out': No such file or directory
+printed output filename CaMgO_cell_936.out
+srun --hint=nomultithread --distribution=block:block
+creating temporary directory /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_936_
+<script>
+# Generate basic information of output file
+
+OUTDIR=`pwd`
+INPDIR=`pwd`
+
+echo "output file: ${OUTDIR}/${OUTPUT}"
+cat << EOF > ${OUTDIR}/${OUTPUT}
+date:                `date`
+hostname:            `hostname`
+system:              `uname -a`
+user:                `whoami`
+input:               ${OUTDIR}/${JOBNAME}.d12
+output:              ${OUTDIR}/${OUTPUT}
+executable script:   $0
+executable:          ${CRYSTAL_TYPE}
+Command:             ${CRYCOMMAND}
+Slurm JobID:         ${JOBID}
+temporary directory: ${JOBTMPDIR}      
+EOF
+
+if [[ ! -z ${JOBID} ]]; then
+    echo "<squeue -j ${JOBID}>"  >> ${OUTDIR}/${OUTPUT}
+    squeue -j ${JOBID}           >> ${OUTDIR}/${OUTPUT} 2>&1
+    echo "</squeue -j ${JOBID}>" >> ${OUTDIR}/${OUTPUT}
+fi
+
+echo "temporary directory: ${JOBTMPDIR}"
+
+# Prepare input files
+
+## Read list
+
+LINE_PRECALC=`grep -nw 'PRE_CALC' ${SETFILE}`
+LINE_PRECALC=`echo "scale=0;${LINE_PRECALC%%:*}+4" | bc`
+
+SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+
+## Mandatory files
+
+### d12 and d3
+
+if [[ -e ${INPDIR}/${JOBNAME}.d3 && -s ${INPDIR}/${JOBNAME}.d3 ]]; then
+    echo "Error: Properties calculation input identified. Remove it before continuing."
+    echo "Exit without calculation."
+    exit
+fi
+
+while [[ ${TMP_NAME} != 'RESTART' ]]; do
+    if [[ -e ${INPDIR}/${JOBNAME}${SAVED_NAME} && -s ${INPDIR}/${JOBNAME}${SAVED_NAME} ]]; then
+
+### Copy files to the main temporary directory
+
+        echo "input expected in ${INPDIR}/${JOBNAME}${SAVED_NAME}"
+        echo "input data ${INPDIR}/${JOBNAME}${SAVED_NAME}" >> ${OUTDIR}/${OUTPUT} 2>&1
+        if [[ ${SAVED_NAME} == '.d12' ]]; then
+            cat ${INPDIR}/${JOBNAME}${SAVED_NAME} >> ${OUTDIR}/${OUTPUT} 2>&1
+        fi
+        cp ${INPDIR}/${JOBNAME}${SAVED_NAME} ${JOBTMPDIR}/${TMP_NAME}
+        echo "input ${JOBNAME}${SAVED_NAME} copied."
+    else
+        echo "Input data ${INPDIR}/${JOBNAME}${SAVED_NAME} not found or empty."
+    fi
+
+    LINE_PRECALC=`echo "scale=0;${LINE_PRECALC}+1" | bc`
+    SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+    TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+done
+
+## Restart files
+
+if [[ $# > 1 ]]; then
+    PRE_JOB=`echo $2`
+    LINE_PRECALC=`echo "scale=0;${LINE_PRECALC}+1" | bc`
+    SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+    TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+    while [[ ! -z ${TMP_NAME} ]]; do
+        if [[ -e ${INPDIR}/${PRE_JOB}${SAVED_NAME} && -s ${INPDIR}/${PRE_JOB}${SAVED_NAME} ]]; then
+
+### Copy files to the main temporary directory
+
+            cp ${INPDIR}/${PRE_JOB}${SAVED_NAME} ${JOBTMPDIR}/${TMP_NAME}
+            echo "File found: ${INPDIR}/${PRE_JOB}${SAVED_NAME}, temporarily saved as ${JOBTMPDIR}/${TMP_NAME}" >> ${OUTDIR}/${OUTPUT} 2>&1
+            echo "File found: ${INPDIR}/${PRE_JOB}${SAVED_NAME}, temporarily saved as ${JOBTMPDIR}/${TMP_NAME}" 
+        fi
+
+        LINE_PRECALC=`echo "scale=0;${LINE_PRECALC}+1" | bc`
+        SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+        TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+    done
+fi
+
+# Launch calculations
+
+cd ${JOBTMPDIR}
+${CRYCOMMAND} >> ${OUTDIR}/${OUTPUT} 2>&1
+
+exit
+</script>
+DATE START:Sat Jan 28 10:55:08 GMT 2023
+output file: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_936.out
+temporary directory: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_936_
+input expected in /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_936.d12
+input CaMgO_cell_936.d12 copied.
+Input data /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_936.d3 not found or empty.
+input expected in /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_936.gui
+input CaMgO_cell_936.gui copied.
+Input data /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_936.POINTCHG not found or empty.
+File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_936.f9, temporarily saved as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_936_/fort.20
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_936_/fort.34 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_936.gui
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_936_/fort.33 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_936.xyz
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_936_/fort.9 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_936.f9
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_936_/fort.98 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_936.f98
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_936_/SCFOUT.LOG as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_936.SCFLOG
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_936_/OPTINFO.DAT as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_936.OPTINFO
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_936_/HESSOPT.DAT as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_936.HESSOPT
+Files saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_936_/opt* as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_936.optstory/
+mv: cannot stat 'slurm-.out': No such file or directory
+printed output filename CaMgO_cell_937.out
+srun --hint=nomultithread --distribution=block:block
+creating temporary directory /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_937_
+<script>
+# Generate basic information of output file
+
+OUTDIR=`pwd`
+INPDIR=`pwd`
+
+echo "output file: ${OUTDIR}/${OUTPUT}"
+cat << EOF > ${OUTDIR}/${OUTPUT}
+date:                `date`
+hostname:            `hostname`
+system:              `uname -a`
+user:                `whoami`
+input:               ${OUTDIR}/${JOBNAME}.d12
+output:              ${OUTDIR}/${OUTPUT}
+executable script:   $0
+executable:          ${CRYSTAL_TYPE}
+Command:             ${CRYCOMMAND}
+Slurm JobID:         ${JOBID}
+temporary directory: ${JOBTMPDIR}      
+EOF
+
+if [[ ! -z ${JOBID} ]]; then
+    echo "<squeue -j ${JOBID}>"  >> ${OUTDIR}/${OUTPUT}
+    squeue -j ${JOBID}           >> ${OUTDIR}/${OUTPUT} 2>&1
+    echo "</squeue -j ${JOBID}>" >> ${OUTDIR}/${OUTPUT}
+fi
+
+echo "temporary directory: ${JOBTMPDIR}"
+
+# Prepare input files
+
+## Read list
+
+LINE_PRECALC=`grep -nw 'PRE_CALC' ${SETFILE}`
+LINE_PRECALC=`echo "scale=0;${LINE_PRECALC%%:*}+4" | bc`
+
+SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+
+## Mandatory files
+
+### d12 and d3
+
+if [[ -e ${INPDIR}/${JOBNAME}.d3 && -s ${INPDIR}/${JOBNAME}.d3 ]]; then
+    echo "Error: Properties calculation input identified. Remove it before continuing."
+    echo "Exit without calculation."
+    exit
+fi
+
+while [[ ${TMP_NAME} != 'RESTART' ]]; do
+    if [[ -e ${INPDIR}/${JOBNAME}${SAVED_NAME} && -s ${INPDIR}/${JOBNAME}${SAVED_NAME} ]]; then
+
+### Copy files to the main temporary directory
+
+        echo "input expected in ${INPDIR}/${JOBNAME}${SAVED_NAME}"
+        echo "input data ${INPDIR}/${JOBNAME}${SAVED_NAME}" >> ${OUTDIR}/${OUTPUT} 2>&1
+        if [[ ${SAVED_NAME} == '.d12' ]]; then
+            cat ${INPDIR}/${JOBNAME}${SAVED_NAME} >> ${OUTDIR}/${OUTPUT} 2>&1
+        fi
+        cp ${INPDIR}/${JOBNAME}${SAVED_NAME} ${JOBTMPDIR}/${TMP_NAME}
+        echo "input ${JOBNAME}${SAVED_NAME} copied."
+    else
+        echo "Input data ${INPDIR}/${JOBNAME}${SAVED_NAME} not found or empty."
+    fi
+
+    LINE_PRECALC=`echo "scale=0;${LINE_PRECALC}+1" | bc`
+    SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+    TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+done
+
+## Restart files
+
+if [[ $# > 1 ]]; then
+    PRE_JOB=`echo $2`
+    LINE_PRECALC=`echo "scale=0;${LINE_PRECALC}+1" | bc`
+    SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+    TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+    while [[ ! -z ${TMP_NAME} ]]; do
+        if [[ -e ${INPDIR}/${PRE_JOB}${SAVED_NAME} && -s ${INPDIR}/${PRE_JOB}${SAVED_NAME} ]]; then
+
+### Copy files to the main temporary directory
+
+            cp ${INPDIR}/${PRE_JOB}${SAVED_NAME} ${JOBTMPDIR}/${TMP_NAME}
+            echo "File found: ${INPDIR}/${PRE_JOB}${SAVED_NAME}, temporarily saved as ${JOBTMPDIR}/${TMP_NAME}" >> ${OUTDIR}/${OUTPUT} 2>&1
+            echo "File found: ${INPDIR}/${PRE_JOB}${SAVED_NAME}, temporarily saved as ${JOBTMPDIR}/${TMP_NAME}" 
+        fi
+
+        LINE_PRECALC=`echo "scale=0;${LINE_PRECALC}+1" | bc`
+        SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+        TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+    done
+fi
+
+# Launch calculations
+
+cd ${JOBTMPDIR}
+${CRYCOMMAND} >> ${OUTDIR}/${OUTPUT} 2>&1
+
+exit
+</script>
+DATE START:Sat Jan 28 14:02:13 GMT 2023
+output file: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_937.out
+temporary directory: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_937_
+input expected in /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_937.d12
+input CaMgO_cell_937.d12 copied.
+Input data /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_937.d3 not found or empty.
+input expected in /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_937.gui
+input CaMgO_cell_937.gui copied.
+Input data /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_937.POINTCHG not found or empty.
+File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_937.f9, temporarily saved as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_937_/fort.20
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_937_/fort.34 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_937.gui
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_937_/fort.33 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_937.xyz
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_937_/fort.9 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_937.f9
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_937_/fort.98 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_937.f98
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_937_/SCFOUT.LOG as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_937.SCFLOG
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_937_/OPTINFO.DAT as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_937.OPTINFO
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_937_/HESSOPT.DAT as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_937.HESSOPT
+Files saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_937_/opt* as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_937.optstory/
+mv: cannot stat 'slurm-.out': No such file or directory
+printed output filename CaMgO_cell_938.out
+srun --hint=nomultithread --distribution=block:block
+creating temporary directory /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_938_
+<script>
+# Generate basic information of output file
+
+OUTDIR=`pwd`
+INPDIR=`pwd`
+
+echo "output file: ${OUTDIR}/${OUTPUT}"
+cat << EOF > ${OUTDIR}/${OUTPUT}
+date:                `date`
+hostname:            `hostname`
+system:              `uname -a`
+user:                `whoami`
+input:               ${OUTDIR}/${JOBNAME}.d12
+output:              ${OUTDIR}/${OUTPUT}
+executable script:   $0
+executable:          ${CRYSTAL_TYPE}
+Command:             ${CRYCOMMAND}
+Slurm JobID:         ${JOBID}
+temporary directory: ${JOBTMPDIR}      
+EOF
+
+if [[ ! -z ${JOBID} ]]; then
+    echo "<squeue -j ${JOBID}>"  >> ${OUTDIR}/${OUTPUT}
+    squeue -j ${JOBID}           >> ${OUTDIR}/${OUTPUT} 2>&1
+    echo "</squeue -j ${JOBID}>" >> ${OUTDIR}/${OUTPUT}
+fi
+
+echo "temporary directory: ${JOBTMPDIR}"
+
+# Prepare input files
+
+## Read list
+
+LINE_PRECALC=`grep -nw 'PRE_CALC' ${SETFILE}`
+LINE_PRECALC=`echo "scale=0;${LINE_PRECALC%%:*}+4" | bc`
+
+SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+
+## Mandatory files
+
+### d12 and d3
+
+if [[ -e ${INPDIR}/${JOBNAME}.d3 && -s ${INPDIR}/${JOBNAME}.d3 ]]; then
+    echo "Error: Properties calculation input identified. Remove it before continuing."
+    echo "Exit without calculation."
+    exit
+fi
+
+while [[ ${TMP_NAME} != 'RESTART' ]]; do
+    if [[ -e ${INPDIR}/${JOBNAME}${SAVED_NAME} && -s ${INPDIR}/${JOBNAME}${SAVED_NAME} ]]; then
+
+### Copy files to the main temporary directory
+
+        echo "input expected in ${INPDIR}/${JOBNAME}${SAVED_NAME}"
+        echo "input data ${INPDIR}/${JOBNAME}${SAVED_NAME}" >> ${OUTDIR}/${OUTPUT} 2>&1
+        if [[ ${SAVED_NAME} == '.d12' ]]; then
+            cat ${INPDIR}/${JOBNAME}${SAVED_NAME} >> ${OUTDIR}/${OUTPUT} 2>&1
+        fi
+        cp ${INPDIR}/${JOBNAME}${SAVED_NAME} ${JOBTMPDIR}/${TMP_NAME}
+        echo "input ${JOBNAME}${SAVED_NAME} copied."
+    else
+        echo "Input data ${INPDIR}/${JOBNAME}${SAVED_NAME} not found or empty."
+    fi
+
+    LINE_PRECALC=`echo "scale=0;${LINE_PRECALC}+1" | bc`
+    SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+    TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+done
+
+## Restart files
+
+if [[ $# > 1 ]]; then
+    PRE_JOB=`echo $2`
+    LINE_PRECALC=`echo "scale=0;${LINE_PRECALC}+1" | bc`
+    SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+    TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+    while [[ ! -z ${TMP_NAME} ]]; do
+        if [[ -e ${INPDIR}/${PRE_JOB}${SAVED_NAME} && -s ${INPDIR}/${PRE_JOB}${SAVED_NAME} ]]; then
+
+### Copy files to the main temporary directory
+
+            cp ${INPDIR}/${PRE_JOB}${SAVED_NAME} ${JOBTMPDIR}/${TMP_NAME}
+            echo "File found: ${INPDIR}/${PRE_JOB}${SAVED_NAME}, temporarily saved as ${JOBTMPDIR}/${TMP_NAME}" >> ${OUTDIR}/${OUTPUT} 2>&1
+            echo "File found: ${INPDIR}/${PRE_JOB}${SAVED_NAME}, temporarily saved as ${JOBTMPDIR}/${TMP_NAME}" 
+        fi
+
+        LINE_PRECALC=`echo "scale=0;${LINE_PRECALC}+1" | bc`
+        SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+        TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+    done
+fi
+
+# Launch calculations
+
+cd ${JOBTMPDIR}
+${CRYCOMMAND} >> ${OUTDIR}/${OUTPUT} 2>&1
+
+exit
+</script>
+DATE START:Sat Jan 28 17:03:39 GMT 2023
+output file: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_938.out
+temporary directory: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_938_
+input expected in /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_938.d12
+input CaMgO_cell_938.d12 copied.
+Input data /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_938.d3 not found or empty.
+input expected in /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_938.gui
+input CaMgO_cell_938.gui copied.
+Input data /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_938.POINTCHG not found or empty.
+File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_938.f9, temporarily saved as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_938_/fort.20
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_938_/fort.34 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_938.gui
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_938_/fort.33 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_938.xyz
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_938_/fort.9 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_938.f9
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_938_/fort.98 as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_938.f98
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_938_/SCFOUT.LOG as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_938.SCFLOG
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_938_/OPTINFO.DAT as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_938.OPTINFO
+File saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_938_/HESSOPT.DAT as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_938.HESSOPT
+Files saved: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_938_/opt* as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_938.optstory/
+mv: cannot stat 'slurm-.out': No such file or directory
+printed output filename CaMgO_cell_939.out
+srun --hint=nomultithread --distribution=block:block
+creating temporary directory /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_939_
+<script>
+# Generate basic information of output file
+
+OUTDIR=`pwd`
+INPDIR=`pwd`
+
+echo "output file: ${OUTDIR}/${OUTPUT}"
+cat << EOF > ${OUTDIR}/${OUTPUT}
+date:                `date`
+hostname:            `hostname`
+system:              `uname -a`
+user:                `whoami`
+input:               ${OUTDIR}/${JOBNAME}.d12
+output:              ${OUTDIR}/${OUTPUT}
+executable script:   $0
+executable:          ${CRYSTAL_TYPE}
+Command:             ${CRYCOMMAND}
+Slurm JobID:         ${JOBID}
+temporary directory: ${JOBTMPDIR}      
+EOF
+
+if [[ ! -z ${JOBID} ]]; then
+    echo "<squeue -j ${JOBID}>"  >> ${OUTDIR}/${OUTPUT}
+    squeue -j ${JOBID}           >> ${OUTDIR}/${OUTPUT} 2>&1
+    echo "</squeue -j ${JOBID}>" >> ${OUTDIR}/${OUTPUT}
+fi
+
+echo "temporary directory: ${JOBTMPDIR}"
+
+# Prepare input files
+
+## Read list
+
+LINE_PRECALC=`grep -nw 'PRE_CALC' ${SETFILE}`
+LINE_PRECALC=`echo "scale=0;${LINE_PRECALC%%:*}+4" | bc`
+
+SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+
+## Mandatory files
+
+### d12 and d3
+
+if [[ -e ${INPDIR}/${JOBNAME}.d3 && -s ${INPDIR}/${JOBNAME}.d3 ]]; then
+    echo "Error: Properties calculation input identified. Remove it before continuing."
+    echo "Exit without calculation."
+    exit
+fi
+
+while [[ ${TMP_NAME} != 'RESTART' ]]; do
+    if [[ -e ${INPDIR}/${JOBNAME}${SAVED_NAME} && -s ${INPDIR}/${JOBNAME}${SAVED_NAME} ]]; then
+
+### Copy files to the main temporary directory
+
+        echo "input expected in ${INPDIR}/${JOBNAME}${SAVED_NAME}"
+        echo "input data ${INPDIR}/${JOBNAME}${SAVED_NAME}" >> ${OUTDIR}/${OUTPUT} 2>&1
+        if [[ ${SAVED_NAME} == '.d12' ]]; then
+            cat ${INPDIR}/${JOBNAME}${SAVED_NAME} >> ${OUTDIR}/${OUTPUT} 2>&1
+        fi
+        cp ${INPDIR}/${JOBNAME}${SAVED_NAME} ${JOBTMPDIR}/${TMP_NAME}
+        echo "input ${JOBNAME}${SAVED_NAME} copied."
+    else
+        echo "Input data ${INPDIR}/${JOBNAME}${SAVED_NAME} not found or empty."
+    fi
+
+    LINE_PRECALC=`echo "scale=0;${LINE_PRECALC}+1" | bc`
+    SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+    TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+done
+
+## Restart files
+
+if [[ $# > 1 ]]; then
+    PRE_JOB=`echo $2`
+    LINE_PRECALC=`echo "scale=0;${LINE_PRECALC}+1" | bc`
+    SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+    TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+    while [[ ! -z ${TMP_NAME} ]]; do
+        if [[ -e ${INPDIR}/${PRE_JOB}${SAVED_NAME} && -s ${INPDIR}/${PRE_JOB}${SAVED_NAME} ]]; then
+
+### Copy files to the main temporary directory
+
+            cp ${INPDIR}/${PRE_JOB}${SAVED_NAME} ${JOBTMPDIR}/${TMP_NAME}
+            echo "File found: ${INPDIR}/${PRE_JOB}${SAVED_NAME}, temporarily saved as ${JOBTMPDIR}/${TMP_NAME}" >> ${OUTDIR}/${OUTPUT} 2>&1
+            echo "File found: ${INPDIR}/${PRE_JOB}${SAVED_NAME}, temporarily saved as ${JOBTMPDIR}/${TMP_NAME}" 
+        fi
+
+        LINE_PRECALC=`echo "scale=0;${LINE_PRECALC}+1" | bc`
+        SAVED_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $1)}' ${SETFILE} | sed 's/.\{7\}//'`
+        TMP_NAME=`awk 'NR=="'${LINE_PRECALC}'"{printf("%s", $2)}' ${SETFILE}`
+    done
+fi
+
+# Launch calculations
+
+cd ${JOBTMPDIR}
+${CRYCOMMAND} >> ${OUTDIR}/${OUTPUT} 2>&1
+
+exit
+</script>
+DATE START:Sat Jan 28 20:16:42 GMT 2023
+output file: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_939.out
+temporary directory: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_939_
+input expected in /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_939.d12
+input CaMgO_cell_939.d12 copied.
+Input data /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_939.d3 not found or empty.
+input expected in /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_939.gui
+input CaMgO_cell_939.gui copied.
+Input data /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_939.POINTCHG not found or empty.
+File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/CaMgO_cell_939.f9, temporarily saved as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_939_/fort.20
+slurmstepd: error: *** JOB 2989089 ON nid006460 CANCELLED AT 2023-01-28T23:13:05 DUE TO TIME LIMIT ***

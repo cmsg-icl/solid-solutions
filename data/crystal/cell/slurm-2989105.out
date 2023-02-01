@@ -1,0 +1,1121 @@
+Lmod has detected the following error: The following module(s) are unknown:
+"epcc-job-env"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore-cache load "epcc-job-env"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+
+Warning: You have enabled access to software packages installed
+by external parties on ARCHER2 or those that are not fully-supported.
+The ARCHER2 CSE service does not test these packages. The service desk
+will make reasonable efforts to assist with questions on the use of
+these packages but some issues may not be able to be resolved by the
+service and they may direct you to seek help from external parties.
+
+
+Output exists: CaMgO_cell_2501.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2501_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2501_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2501_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2501_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2501_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2502.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2502_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2502_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2502_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2502_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2502_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2503.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2503_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2503_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2503_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2503_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2503_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2504.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2504_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2504_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2504_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2504_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2504_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2505.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2505_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2505_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2505_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2505_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2505_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2506.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2506_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2506_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2506_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2506_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2506_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2507.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2507_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2507_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2507_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2507_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2507_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2508.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2508_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2508_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2508_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2508_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2508_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2509.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2509_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2509_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2509_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2509_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2509_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2510.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2510_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2510_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2510_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2510_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2510_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2511.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2511_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2511_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2511_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2511_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2511_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2512.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2512_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2512_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2512_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2512_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2512_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2513.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2513_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2513_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2513_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2513_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2513_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2514.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2514_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2514_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2514_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2514_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2514_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2515.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2515_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2515_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2515_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2515_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2515_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2516.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2516_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2516_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2516_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2516_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2516_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2517.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2517_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2517_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2517_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2517_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2517_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2518.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2518_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2518_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2518_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2518_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2518_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2519.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2519_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2519_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2519_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2519_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2519_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2520.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2520_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2520_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2520_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2520_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2520_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2521.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2521_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2521_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2521_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2521_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2521_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2522.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2522_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2522_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2522_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2522_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2522_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2523.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2523_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2523_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2523_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2523_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2523_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2524.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2524_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2524_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2524_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2524_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2524_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2525.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2525_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2525_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2525_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2525_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2525_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2526.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2526_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2526_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2526_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2526_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2526_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2527.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2527_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2527_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2527_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2527_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2527_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2528.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2528_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2528_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2528_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2528_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2528_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2529.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2529_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2529_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2529_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2529_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2529_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2530.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2530_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2530_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2530_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2530_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2530_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2531.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2531_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2531_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2531_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2531_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2531_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2532.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2532_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2532_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2532_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2532_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2532_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2533.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2533_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2533_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2533_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2533_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2533_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2534.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2534_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2534_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2534_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2534_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2534_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2535.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2535_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2535_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2535_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2535_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2535_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2536.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2536_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2536_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2536_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2536_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2536_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2537.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2537_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2537_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2537_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2537_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2537_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2538.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2538_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2538_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2538_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2538_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2538_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2539.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2539_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2539_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2539_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2539_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2539_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2540.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2540_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2540_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2540_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2540_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2540_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2541.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2541_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2541_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2541_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2541_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2541_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2542.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2542_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2542_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2542_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2542_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2542_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2543.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2543_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2543_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2543_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2543_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2543_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2544.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2544_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2544_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2544_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2544_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2544_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2545.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2545_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2545_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2545_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2545_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2545_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2546.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2546_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2546_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2546_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2546_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2546_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2547.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2547_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2547_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2547_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2547_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2547_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2548.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2548_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2548_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2548_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2548_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2548_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2549.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2549_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2549_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2549_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2549_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2549_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2550.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2550_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2550_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2550_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2550_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2550_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2551.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2551_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2551_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2551_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2551_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2551_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2552.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2552_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2552_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2552_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2552_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2552_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2553.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2553_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2553_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2553_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2553_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2553_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2554.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2554_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2554_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2554_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2554_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2554_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2555.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2555_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2555_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2555_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2555_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2555_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2556.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2556_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2556_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2556_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2556_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2556_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2557.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2557_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2557_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2557_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2557_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2557_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2558.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2558_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2558_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2558_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2558_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2558_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2559.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2559_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2559_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2559_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2559_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2559_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2560.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2560_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2560_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2560_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2560_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2560_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2561.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2561_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2561_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2561_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2561_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2561_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2562.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2562_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2562_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2562_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2562_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2562_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2563.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2563_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2563_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2563_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2563_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2563_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2564.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2564_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2564_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2564_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2564_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2564_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2565.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2565_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2565_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2565_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2565_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2565_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2566.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2566_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2566_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2566_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2566_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2566_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2567.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2567_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2567_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2567_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2567_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2567_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2568.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2568_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2568_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2568_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2568_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2568_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2569.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2569_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2569_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2569_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2569_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2569_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2570.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2570_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2570_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2570_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2570_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2570_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2571.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2571_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2571_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2571_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2571_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2571_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2572.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2572_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2572_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2572_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2572_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2572_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2573.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2573_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2573_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2573_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2573_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2573_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2574.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2574_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2574_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2574_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2574_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2574_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2575.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2575_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2575_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2575_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2575_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2575_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2576.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2576_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2576_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2576_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2576_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2576_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2577.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2577_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2577_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2577_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2577_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2577_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2578.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2578_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2578_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2578_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2578_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2578_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2579.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2579_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2579_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2579_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2579_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2579_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2580.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2580_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2580_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2580_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2580_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2580_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2581.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2581_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2581_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2581_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2581_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2581_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2582.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2582_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2582_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2582_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2582_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2582_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2583.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2583_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2583_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2583_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2583_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2583_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2584.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2584_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2584_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2584_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2584_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2584_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2585.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2585_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2585_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2585_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2585_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2585_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2586.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2586_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2586_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2586_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2586_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2586_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2587.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2587_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2587_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2587_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2587_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2587_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2588.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2588_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2588_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2588_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2588_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2588_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2589.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2589_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2589_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2589_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2589_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2589_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2590.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2590_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2590_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2590_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2590_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2590_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2591.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2591_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2591_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2591_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2591_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2591_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2592.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2592_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2592_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2592_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2592_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2592_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2593.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2593_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2593_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2593_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2593_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2593_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2594.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2594_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2594_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2594_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2594_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2594_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2595.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2595_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2595_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2595_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2595_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2595_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2596.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2596_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2596_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2596_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2596_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2596_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2597.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2597_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2597_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2597_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2597_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2597_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2598.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2598_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2598_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2598_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2598_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2598_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2599.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2599_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2599_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2599_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2599_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2599_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: CaMgO_cell_2600.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2600_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2600_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2600_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2600_/checkfile0': No such file or directory
+nid006682
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/cell/tmp_CaMgO_cell_2600_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
